@@ -26,6 +26,42 @@
         "hello"
       ],
       "enabled": true
+    },
+    "playwright": {
+      "type": "local",
+      "command": [
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-playwright"
+      ],
+      "enabled": true
+    },
+    "context7": {
+      "type": "local",
+      "command": [
+        "npx",
+        "-y",
+        "@synkra/mcp-context7"
+      ],
+      "enabled": true
+    },
+    "exa": {
+      "type": "local",
+      "command": [
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-exa"
+      ],
+      "enabled": true
+    },
+    "desktop-commander": {
+      "type": "local",
+      "command": [
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-desktop-commander"
+      ],
+      "enabled": true
     }
   }
 }

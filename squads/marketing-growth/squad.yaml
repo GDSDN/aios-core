@@ -1,0 +1,87 @@
+name: marketing-growth
+version: 1.0.0
+short-title: Marketing & Growth
+description: Evidence-first marketing and growth system for OpenCode + AIOS (project KB under docs/marketing/).
+author: Synkra AIOS
+license: MIT
+aios:
+  type: squad
+  minVersion: 2.1.0
+requires:
+  node: '>=18.0.0'
+tags:
+  - marketing
+  - growth
+  - opencode
+  - aios
+  - vertex-ai
+  - gemini
+components:
+  tasks:
+    - tasks/mkt-init-project-kb.md
+    - tasks/mkt-refresh-context.md
+    - tasks/mkt-deep-research.md
+    - tasks/mkt-competitor-map.md
+    - tasks/mkt-positioning.md
+    - tasks/mkt-messaging-house.md
+    - tasks/mkt-offer-design.md
+    - tasks/mkt-landing-page.md
+    - tasks/mkt-ads-meta-pack.md
+    - tasks/mkt-ads-google-pack.md
+    - tasks/mkt-email-sequence-welcome.md
+    - tasks/mkt-email-sequence-nurture.md
+    - tasks/mkt-email-sequence-winback.md
+    - tasks/mkt-app-store-listing.md
+    - tasks/mkt-changelog-to-launch.md
+    - tasks/mkt-funnel-mapping.md
+    - tasks/mkt-launch-plan.md
+    - tasks/mkt-linkedin-content-pack.md
+    - tasks/mkt-reddit-audience-mining.md
+    - tasks/mkt-reddit-post-pack.md
+    - tasks/mkt-seo-serp-brief.md
+    - tasks/mkt-seo-topic-cluster.md
+    - tasks/mkt-tracking-plan.md
+    - tasks/mkt-x-content-pack.md
+    - tasks/mkt-x-trend-scan.md
+    - tasks/mkt-editorial-review.md
+    - tasks/mkt-claims-check.md
+  agents:
+    - agents/marketing-master.md
+    - agents/brand-strategist.md
+    - agents/product-marketer.md
+    - agents/pricing-offer-architect.md
+    - agents/growth-analyst.md
+    - agents/customer-researcher.md
+    - agents/competitive-intel.md
+    - agents/copy-direct-response.md
+    - agents/copy-seo.md
+    - agents/copy-lifecycle.md
+    - agents/copy-ux-writer.md
+    - agents/paid-social-meta.md
+    - agents/paid-search-google.md
+    - agents/social-x.md
+    - agents/social-linkedin.md
+    - agents/community-reddit.md
+    - agents/partnerships-pr.md
+    - agents/marketing-ops.md
+    - agents/marketing-analyst-analytics.md
+    - agents/editor-qa.md
+  templates:
+    - templates/CONTEXT.md
+    - templates/VOICE.md
+    - templates/MESSAGING.md
+    - templates/ICP.md
+    - templates/OFFERS.md
+    - templates/CHANNELS.md
+    - templates/EXPERIMENTS.md
+    - templates/CAMPAIGN_BRIEF.md
+  tools:
+    - tools/mkt-deep-research.ts
+    - tools/mkt-deep-research.js
+  scripts:
+    - scripts/install-opencode.ps1
+config:
+  extends: extend
+  coding-standards: config/coding-standards.md
+  tech-stack: config/tech-stack.md
+  source-tree: config/source-tree.md

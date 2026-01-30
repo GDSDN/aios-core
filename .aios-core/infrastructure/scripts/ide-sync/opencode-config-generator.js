@@ -13,6 +13,7 @@ const path = require('path');
  */
 function getMcpCommand(mcpId) {
   const commands = {
+    playwright: ['npx', '-y', '@modelcontextprotocol/server-playwright'],
     browser: ['npx', '-y', '@modelcontextprotocol/server-playwright'],
     context7: ['npx', '-y', '@synkra/mcp-context7'],
     exa: ['npx', '-y', '@modelcontextprotocol/server-exa'],
@@ -51,7 +52,7 @@ async function generateOpencodeConfig(projectRoot, options = {}) {
     options.selectedMCPs && Array.isArray(options.selectedMCPs)
       ? options.selectedMCPs
       : Object.keys(mcpConfig).length === 0
-        ? ['browser', 'context7', 'exa', 'desktop-commander']
+        ? ['playwright', 'context7', 'exa', 'desktop-commander']
         : [];
 
   for (const mcpId of mcpsToInstall) {

@@ -187,6 +187,20 @@ acceptance-criteria:
       .git exists and gh repo view succeeds
     error_message: "Repository not properly initialized"
 
+  - [ ] Playwright configured for E2E testing (if selected)
+    tipo: acceptance-criterion
+    blocker: false
+    validação: |
+      Check playwright.config.ts exists and @playwright/test is in package.json
+    error_message: "Playwright E2E configuration failed"
+
+  - [ ] opencode.json configured with Playwright MCP
+    tipo: acceptance-criterion
+    blocker: true
+    validação: |
+      Check opencode.json exists and contains playwright MCP configuration
+    error_message: "OpenCode MCP configuration failed"
+
   - [ ] Project structure follows AIOS conventions
     tipo: acceptance-criterion
     blocker: false
@@ -292,6 +306,7 @@ interaction_points:
   - github_org: 'GitHub organization or username for repository?'
   - optional_tools: 'Which optional tools do you want to install?'
   - git_provider: 'Git provider preference (GitHub/GitLab/Bitbucket)?'
+  - e2e_testing: 'Would you like to configure Playwright for E2E testing?'
 ```
 
 ---
@@ -375,6 +390,7 @@ Present comprehensive status table:
 ╠═══════════════╪═══════════════╪═══════════╪════════════╪══════════════╣
 ║ QUALITY       │ coderabbit    │ ⚠️ CHECK  │ 0.8.0      │ RECOMMENDED  ║
 ║               │               │ (WSL/Win) │            │              ║
+║               │ playwright    │ ❌ MISSING│ -          │ RECOMMENDED  ║
 ╠═══════════════╪═══════════════╪═══════════╪════════════╪══════════════╣
 ║ OPTIONAL      │ pnpm          │ ❌ MISSING│ -          │ OPTIONAL     ║
 ║               │ bun           │ ❌ MISSING│ -          │ OPTIONAL     ║
@@ -529,6 +545,14 @@ cli_checks:
       verification:
         windows: "wsl bash -c '~/.local/bin/coderabbit --version'"
         unix: 'coderabbit --version'
+
+    playwright:
+      check: 'npx playwright --version'
+      expected: '1.45.x or higher'
+      install:
+        npm: 'npm install -D @playwright/test && npx playwright install'
+      note: 'Modern E2E testing framework'
+      template: '.aios-core/infrastructure/templates/playwright/playwright.config.ts.tmpl'
 
   optional:
     pnpm:
@@ -922,163 +946,90 @@ if (-not (Test-Path "package.json")) {
 }
 
 Write-Host "✅ Project structure created"
-```
 
 ---
 
-### Step 6.5: Docker MCP Setup (Optional but Recommended)
+### Step 6.6: Playwright E2E Setup (Optional)
 
-**Condition:** Docker Desktop 4.50+ is installed AND Docker MCP Toolkit is available
+**Action:** Configure Playwright for E2E testing
 
-**Action:** Configure Docker MCP Toolkit with HTTP transport for Claude Code integration
+**Condition:** User selected Playwright during elicitation or it's recommended for the tech stack
 
 **Elicitation Point:**
 
 ```
+
 ╔════════════════════════════════════════════════════════════════════════╗
-║                     DOCKER MCP SETUP                                    ║
+║ PLAYWRIGHT E2E SETUP ║
 ╠════════════════════════════════════════════════════════════════════════╣
-║                                                                         ║
-║  Docker Desktop detected with MCP Toolkit!                              ║
-║                                                                         ║
-║  Configure MCP servers for Claude Code?                                 ║
-║                                                                         ║
-║  1. MINIMAL - context7 + desktop-commander + playwright (no API keys)   ║
-║  2. FULL - minimal + exa (requires EXA_API_KEY)                         ║
-║  3. SKIP - Configure later with *setup-mcp-docker                       ║
-║                                                                         ║
-║  Select option (1/2/3): _                                               ║
-║                                                                         ║
+║ ║
+║ Would you like to configure Playwright for E2E testing? ║
+│ │
+│ 1. YES - Install @playwright/test and create configuration │
+│ 2. NO - Skip E2E setup │
+│ │
 ╚════════════════════════════════════════════════════════════════════════╝
-```
 
-**YOLO Mode Behavior:** Auto-select MINIMAL (no API keys required)
+````
 
-**If MINIMAL or FULL selected:**
-
-**Step 6.5.1: Start Gateway Service**
+**If YES selected:**
 
 ```powershell
-# Windows
-Write-Host "Starting MCP Gateway service..."
+# Windows & Unix
+Write-Host "Configuring Playwright E2E..."
 
-# Create gateway service file if not exists
-if (-not (Test-Path ".docker/mcp/gateway-service.yml")) {
-  # Copy from template or create
-  New-Item -ItemType Directory -Path ".docker/mcp" -Force | Out-Null
-  # Gateway service will be started by Docker Compose
+# Install dependencies
+npm install -D @playwright/test
+npx playwright install --with-deps
+
+# Create configuration from template
+$templatePath = ".aios-core/infrastructure/templates/playwright/playwright.config.ts.tmpl"
+$targetPath = "playwright.config.ts"
+
+if (Test-Path $templatePath) {
+    Copy-Item $templatePath $targetPath
+    Write-Host "✅ Created playwright.config.ts"
 }
 
-# Start gateway as persistent service
-docker compose -f .docker/mcp/gateway-service.yml up -d
+# Create example test
+New-Item -ItemType Directory -Path "tests/e2e" -Force | Out-Null
+$testTemplatePath = ".aios-core/infrastructure/templates/playwright/example.spec.ts.tmpl"
+$testTargetPath = "tests/e2e/example.spec.ts"
 
-# Wait for gateway to be healthy
-$maxRetries = 12
-$retryCount = 0
-do {
-  Start-Sleep -Seconds 5
-  $health = Invoke-WebRequest -Uri "http://localhost:8080/health" -UseBasicParsing -ErrorAction SilentlyContinue
-  $retryCount++
-} while ($health.StatusCode -ne 200 -and $retryCount -lt $maxRetries)
+if (Test-Path $testTemplatePath) {
+    Copy-Item $testTemplatePath $testTargetPath
+    Write-Host "✅ Created tests/e2e/example.spec.ts"
+}
 
-if ($health.StatusCode -eq 200) {
-  Write-Host "✅ MCP Gateway is healthy"
+# Add scripts to package.json
+# (Handled via npm pkg set or manual edit)
+npm pkg set scripts.test:e2e="playwright test"
+npm pkg set scripts.test:e2e:ui="playwright test --ui"
+
+Write-Host "✅ Playwright E2E configured"
+````
+
+---
+
+### Step 6.7: IDE Configuration Sync
+
+**Action:** Sync AIOS agents and configurations to IDE-specific files (OpenCode, Claude, Cursor)
+
+```powershell
+Write-Host "Syncing IDE configurations..."
+
+# This runs the ide-sync script which generates opencode.json, cursor rules, etc.
+npm run sync:ide
+
+if ($LASTEXITCODE -eq 0) {
+    Write-Host "✅ IDE configurations synced successfully"
+    if (Test-Path "opencode.json") {
+        Write-Host "✅ Created/Updated opencode.json with MCP configurations"
+    }
 } else {
-  Write-Host "⚠️ MCP Gateway health check failed - continuing anyway"
+    Write-Host "⚠️ IDE sync failed - please run 'npm run sync:ide' manually"
 }
 ```
-
-**Step 6.5.2: Enable Default MCPs**
-
-```powershell
-# Enable minimal preset MCPs (no API keys required)
-Write-Host "Enabling MCP servers..."
-
-docker mcp server enable context7
-docker mcp server enable desktop-commander
-docker mcp server enable playwright
-
-# If FULL preset selected and EXA_API_KEY exists
-if ($PRESET -eq "FULL" -and $env:EXA_API_KEY) {
-  docker mcp server enable exa
-  Write-Host "✅ Exa MCP enabled (web search)"
-}
-
-# Configure desktop-commander with user home path
-$userHome = $env:USERPROFILE
-docker mcp config write "desktop-commander:`n  paths:`n    - $userHome"
-
-Write-Host "✅ MCP servers enabled"
-docker mcp server ls
-```
-
-**Step 6.5.3: Configure Claude Code (HTTP Transport)**
-
-```powershell
-Write-Host "Configuring Claude Code for MCP Gateway..."
-
-$claudeConfigPath = Join-Path $env:USERPROFILE ".claude.json"
-
-if (Test-Path $claudeConfigPath) {
-  # Read existing config
-  $claudeConfig = Get-Content $claudeConfigPath | ConvertFrom-Json
-
-  # Add or update docker-gateway with HTTP transport
-  if (-not $claudeConfig.mcpServers) {
-    $claudeConfig | Add-Member -NotePropertyName "mcpServers" -NotePropertyValue @{} -Force
-  }
-
-  $claudeConfig.mcpServers.'docker-gateway' = @{
-    type = "http"
-    url = "http://localhost:8080/mcp"
-  }
-
-  # Save config
-  $claudeConfig | ConvertTo-Json -Depth 10 | Set-Content $claudeConfigPath -Encoding UTF8
-  Write-Host "✅ Claude Code configured with HTTP transport"
-} else {
-  Write-Host "⚠️ ~/.claude.json not found - please configure manually"
-  Write-Host "   Add to mcpServers: { 'docker-gateway': { 'type': 'http', 'url': 'http://localhost:8080/mcp' } }"
-}
-```
-
-**Step 6.5.4: Verify MCP Setup**
-
-```powershell
-Write-Host "Verifying MCP setup..."
-
-# Check gateway health
-$health = Invoke-WebRequest -Uri "http://localhost:8080/health" -UseBasicParsing -ErrorAction SilentlyContinue
-if ($health.StatusCode -eq 200) {
-  Write-Host "✅ Gateway: Healthy"
-} else {
-  Write-Host "❌ Gateway: Not responding"
-}
-
-# Check enabled servers
-$servers = docker mcp server ls
-Write-Host "✅ Enabled servers: $servers"
-
-# Summary
-Write-Host ""
-Write-Host "═══════════════════════════════════════════════════════════════"
-Write-Host "  MCP SETUP COMPLETE"
-Write-Host "═══════════════════════════════════════════════════════════════"
-Write-Host "  Gateway: http://localhost:8080 (HTTP/SSE)"
-Write-Host "  MCPs: context7, desktop-commander, playwright"
-Write-Host "  Claude Config: ~/.claude.json (HTTP transport)"
-Write-Host ""
-Write-Host "  ⚠️ IMPORTANT: Restart Claude Code to connect to MCP Gateway"
-Write-Host "═══════════════════════════════════════════════════════════════"
-```
-
-**Skip Conditions:**
-
-- Docker not installed or not running
-- Docker MCP Toolkit not available
-- User selected SKIP option
-
-**Output:** MCP setup status added to environment report
 
 ---
 
@@ -1177,7 +1128,14 @@ Write-Host "✅ Environment report saved to .aios/environment-report.json"
 ║  ✅ git 2.43.0          ✅ gh 2.40.1 (authenticated)                       ║
 ║  ✅ node 20.10.0        ✅ npm 10.2.4                                      ║
 ║  ✅ supabase 1.123.0    ✅ railway 3.5.0                                   ║
-║  ✅ docker 24.0.7       ⚠️  coderabbit (WSL only)                          ║
+║  ✅ docker 24.0.7       ✅ playwright 1.45.0                               ║
+║  ⚠️  coderabbit (WSL only)                                                 ║
+║                                                                            ║
+╠═══════════════════════════════════════════════════════════════════════════╣
+║  IDE & Automation                                                          ║
+╠═══════════════════════════════════════════════════════════════════════════╣
+║  ✅ opencode.json        ✅ Playwright E2E configured                      ║
+║  ✅ ~/.claude.json       ✅ IDE Commands Synced                            ║
 ║                                                                            ║
 ╠═══════════════════════════════════════════════════════════════════════════╣
 ║  Project Structure                                                         ║
