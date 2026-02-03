@@ -168,6 +168,7 @@ async function runWizard() {
     // Story 1.4: Install AIOS core framework (agents, tasks, workflows, templates)
     console.log('\n📦 Installing AIOS core framework...');
     let aiosCoreResult = null;
+    let aiosCoreError = null;
     try {
       aiosCoreResult = await installAiosCore({
         targetDir: process.cwd(),
@@ -193,7 +194,25 @@ async function runWizard() {
       answers.aiosCoreResult = aiosCoreResult;
     } catch (error) {
       console.error('\n⚠️  AIOS core installation failed:', error.message);
+      aiosCoreError = error;
       answers.aiosCoreInstalled = false;
+    }
+
+    if (!answers.aiosCoreInstalled) {
+      const { continueWithoutCore } = await inquirer.prompt([
+        {
+          type: 'confirm',
+          name: 'continueWithoutCore',
+          message: 'AIOS core installation failed. Continue without it?',
+          default: false,
+        },
+      ]);
+
+      if (!continueWithoutCore) {
+        throw new Error(aiosCoreError?.message || 'Installation cancelled - AIOS core required');
+      }
+
+      console.log('\n⚠️  Continuing without AIOS core. Some features may not work.');
     }
 
     // DISABLED: Squads replaced expansion-packs (OSR-8)

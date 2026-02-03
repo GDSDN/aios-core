@@ -28,9 +28,9 @@ function getAiosCoreSourcePath() {
  */
 const FOLDERS_TO_COPY = [
   // v2.1 Modular Structure (Story 2.15)
-  'core',           // Framework utilities, config, registry, migration
-  'development',    // Agents, tasks, workflows, scripts, personas
-  'product',        // Templates, checklists, cli, api
+  'core', // Framework utilities, config, registry, migration
+  'development', // Agents, tasks, workflows, scripts, personas
+  'product', // Templates, checklists, cli, api
   'infrastructure', // Hooks, telemetry, integrations, tools
 
   // v2.0 Legacy Flat Structure (for backwards compatibility)
@@ -47,8 +47,8 @@ const FOLDERS_TO_COPY = [
   'workflows',
 
   // Additional directories
-  'cli',            // CLI commands
-  'manifests',       // Manifest definitions
+  'cli', // CLI commands
+  'manifests', // Manifest definitions
 ];
 
 /**
@@ -59,11 +59,65 @@ const ROOT_FILES_TO_COPY = [
   'index.js',
   'index.esm.js',
   'index.d.ts',
-  'core-config.yaml',   // Core framework configuration
-  'package.json',       // Module package definition
+  'core-config.yaml', // Core framework configuration
+  'package.json', // Module package definition
   'user-guide.md',
   'working-in-the-brownfield.md',
 ];
+
+const REQUIRED_SOURCE_GROUPS = [
+  {
+    name: 'modular',
+    folders: ['core', 'development', 'product'],
+  },
+  {
+    name: 'legacy',
+    folders: ['agents', 'tasks', 'workflows', 'templates'],
+  },
+];
+
+const REQUIRED_ROOT_FILES = ['core-config.yaml', 'package.json'];
+
+async function validateAiosCoreSource(sourceDir) {
+  if (!(await fs.pathExists(sourceDir))) {
+    throw new Error('.aios-core source directory not found in package');
+  }
+
+  const entries = await fs.readdir(sourceDir);
+  if (!entries || entries.length === 0) {
+    throw new Error('.aios-core source directory is empty');
+  }
+
+  const missingRootFiles = [];
+  for (const file of REQUIRED_ROOT_FILES) {
+    const filePath = path.join(sourceDir, file);
+    if (!(await fs.pathExists(filePath))) {
+      missingRootFiles.push(file);
+    }
+  }
+
+  if (missingRootFiles.length > 0) {
+    throw new Error(`Missing required .aios-core files: ${missingRootFiles.join(', ')}`);
+  }
+
+  let satisfiedGroup = null;
+  for (const group of REQUIRED_SOURCE_GROUPS) {
+    const folderChecks = await Promise.all(
+      group.folders.map((folder) => fs.pathExists(path.join(sourceDir, folder)))
+    );
+    if (folderChecks.every(Boolean)) {
+      satisfiedGroup = group;
+      break;
+    }
+  }
+
+  if (!satisfiedGroup) {
+    const expected = REQUIRED_SOURCE_GROUPS.map((group) => group.folders.join(', '));
+    throw new Error(
+      `Missing required .aios-core folders. Expected one of: ${expected.join(' | ')}`
+    );
+  }
+}
 
 /**
  * Replace {root} placeholder in file content
@@ -115,7 +169,7 @@ async function copyFileWithRootReplacement(sourcePath, destPath, replaceRoot = t
 async function copyDirectoryWithRootReplacement(sourceDir, destDir, onProgress = null) {
   const copiedFiles = [];
 
-  if (!await fs.pathExists(sourceDir)) {
+  if (!(await fs.pathExists(sourceDir))) {
     return copiedFiles;
   }
 
@@ -128,8 +182,10 @@ async function copyDirectoryWithRootReplacement(sourceDir, destDir, onProgress =
     const destPath = path.join(destDir, item.name);
 
     // Skip backup files and hidden files (except config files)
-    if (item.name.includes('.backup') ||
-        (item.name.startsWith('.') && !item.name.startsWith('.session'))) {
+    if (
+      item.name.includes('.backup') ||
+      (item.name.startsWith('.') && !item.name.startsWith('.session'))
+    ) {
       continue;
     }
 
@@ -163,10 +219,7 @@ async function copyDirectoryWithRootReplacement(sourceDir, destDir, onProgress =
  * console.log(result.installedFiles); // List of installed files
  */
 async function installAiosCore(options = {}) {
-  const {
-    targetDir = process.cwd(),
-    onProgress = null,
-  } = options;
+  const { targetDir = process.cwd(), onProgress = null } = options;
 
   const result = {
     success: false,
@@ -181,10 +234,7 @@ async function installAiosCore(options = {}) {
     const sourceDir = getAiosCoreSourcePath();
     const targetAiosCore = path.join(targetDir, '.aios-core');
 
-    // Check if source exists
-    if (!await fs.pathExists(sourceDir)) {
-      throw new Error('.aios-core source directory not found in package');
-    }
+    await validateAiosCoreSource(sourceDir);
 
     // Create target .aios-core directory
     await fs.ensureDir(targetAiosCore);
@@ -200,12 +250,12 @@ async function installAiosCore(options = {}) {
         const copiedFiles = await copyDirectoryWithRootReplacement(
           folderSource,
           folderDest,
-          onProgress,
+          onProgress
         );
 
         if (copiedFiles.length > 0) {
           result.installedFolders.push(folder);
-          result.installedFiles.push(...copiedFiles.map(f => path.join(folder, f)));
+          result.installedFiles.push(...copiedFiles.map((f) => path.join(folder, f)));
         }
       }
     }
@@ -236,12 +286,11 @@ async function installAiosCore(options = {}) {
     await fs.writeFile(
       path.join(targetAiosCore, 'install-manifest.yaml'),
       require('js-yaml').dump(manifest),
-      'utf8',
+      'utf8'
     );
 
     result.success = true;
     spinner.succeed(`AIOS core installed (${result.installedFiles.length} files)`);
-
   } catch (error) {
     spinner.fail('AIOS core installation failed');
     result.errors.push(error.message);
@@ -300,11 +349,13 @@ async function createBasicPackageJson(options = {}) {
  * @returns {string} Sanitized name
  */
 function sanitizePackageName(name) {
-  return name
-    .toLowerCase()
-    .replace(/[^a-z0-9-_]/g, '-')
-    .replace(/--+/g, '-')
-    .replace(/^-|-$/g, '') || 'my-project';
+  return (
+    name
+      .toLowerCase()
+      .replace(/[^a-z0-9-_]/g, '-')
+      .replace(/--+/g, '-')
+      .replace(/^-|-$/g, '') || 'my-project'
+  );
 }
 
 module.exports = {
