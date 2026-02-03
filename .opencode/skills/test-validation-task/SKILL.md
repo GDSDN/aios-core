@@ -1,5 +1,5 @@
 ---
-description: "**Choose your execution mode:**"
+description: "This is a test task created for validating the create-task task execution. It provides minimal functionality to test task creation workflow."
 ---
 
 # Test-validation-task

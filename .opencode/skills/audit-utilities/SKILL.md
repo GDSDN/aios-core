@@ -1,5 +1,5 @@
 ---
-description: "**Choose your execution mode:**"
+description: "Systematically audit all utilities in .aios-core/scripts/ to determine their functional status, classify them as WORKING/FIXABLE/DEPRECATED, and ge..."
 ---
 
 # Audit-utilities

@@ -1,5 +1,5 @@
 ---
-description: "tools:"
+description: "- Split a large document into multiple smaller documents based on level 2 sections"
 ---
 
 # Shard-doc

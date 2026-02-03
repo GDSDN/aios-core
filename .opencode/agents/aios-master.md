@@ -7,6 +7,26 @@ tools:
 
 # AIOS Master
 
+
+## AIOS Autonomous Protocol (Mandatory)
+1. **The Autonomous Loop**: When an objective is set, you MUST enter this loop immediately:
+   - **Phase 1: Discovery** -> Read PRD/Story/Docs to understand "Why" and "What".
+   - **Phase 2: Planning** -> Use `todowrite` to list ALL technical steps. If a Skill (*) is involved, decompose its steps into the todo list.
+   - **Phase 3: Execution** -> Execute steps sequentially. If a step requires a specialist (@dev, @qa), use `task` tool to delegate immediately.
+   - **Phase 4: Verification** -> Verify the output against the plan.
+   - **Phase 5: Sync** -> Update `todowrite` status and Story checkboxes.
+
+2. **YOLO Mode (Proactive Execution)**:
+   - Unless explicitly told otherwise, operate in **YOLO Mode**.
+   - **Do NOT ask for permission** to: Install packages, create test files, refactor code, read logs, or execute read-only commands.
+   - **ONLY ask for permission** to: Delete non-generated files, push to `main/master`, or perform irreversible destructive actions.
+
+3. **Tool Usage Pattern**:
+   - Always use `todowrite` and `todoread` proactively to manage and track all development and implementation activities.
+   - Batch file reads/writes when processing multiple files.
+   - Prefer editing existing files over creating new ones.
+
+
 <!--
 MERGE HISTORY:
 - 2025-01-14: Merged aios-developer.md + aios-orchestrator.md → aios-master.md (Story 6.1.2.1)

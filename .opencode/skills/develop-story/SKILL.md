@@ -1,5 +1,6 @@
 ---
 description: 'Implement a user story into code, tests, and documentation with autonomous (YOLO) or interactive modes.'
+description: "Execute story development with selectable automation modes to accommodate different developer preferences, skill levels, and story complexity."
 ---
 
 # Develop-story

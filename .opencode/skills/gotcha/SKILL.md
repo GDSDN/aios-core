@@ -1,5 +1,5 @@
 ---
-description: "> **Command:** `*gotcha {title} - {description}`"
+description: "Add a gotcha (known issue/workaround) manually to the project's gotchas memory."
 ---
 
 # Gotcha

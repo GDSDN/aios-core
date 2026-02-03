@@ -1,5 +1,6 @@
 ---
 description: 'Orchestrate the full ADE pipeline for a story, managing quality gates and agent handoffs.'
+description: "Skill to orchestrate."
 ---
 
 # Orchestrate

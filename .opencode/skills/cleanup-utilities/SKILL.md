@@ -1,5 +1,5 @@
 ---
-description: "tools:"
+description: "Safely archive deprecated utilities identified in Story 3.17 audit, reducing technical debt and developer confusion while maintaining the ability t..."
 ---
 
 # Cleanup-utilities

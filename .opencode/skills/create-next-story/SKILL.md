@@ -1,5 +1,6 @@
 ---
 description: 'Create the next logical user story based on project progress and epic definitions, preparing it for development.'
+description: "To identify the next logical story based on project progress and epic definitions, and then to prepare a comprehensive, self-contained, and actiona..."
 ---
 
 # Create-next-story

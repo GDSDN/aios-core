@@ -1,5 +1,5 @@
 ---
-description: "**Choose your execution mode:**"
+description: "To safely modify existing workflow definitions while maintaining their orchestration logic, preserving phase transitions, and ensuring all agent in..."
 ---
 
 # Modify-workflow

@@ -1,5 +1,5 @@
 ---
-description: "**Choose your execution mode:**"
+description: "To safely modify existing agent definitions while preserving their structure, maintaining compatibility, and providing rollback capabilities. This ..."
 ---
 
 # Modify-agent

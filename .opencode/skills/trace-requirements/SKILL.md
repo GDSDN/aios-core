@@ -1,5 +1,5 @@
 ---
-description: "<!--"
+description: "Create a requirements traceability matrix that ensures every acceptance criterion has corresponding test coverage. This task helps identify gaps in..."
 ---
 
 # Trace-requirements

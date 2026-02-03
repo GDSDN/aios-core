@@ -1,5 +1,5 @@
 ---
-description: "tools:"
+description: "Skill to sync story to clickup."
 ---
 
 # Sync-story-to-clickup
