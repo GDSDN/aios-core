@@ -2,13 +2,13 @@
 
 ## Scope
 
-This update aligns AIOS prompts and templates with OpenCode built-in identity directives and introduces an upstream sync workflow for safe adaptations.
+This update aligns AIOS prompts and templates with OpenCode Plan/Build execution modes and introduces an upstream sync workflow for safe adaptations.
 
 ## Completed Work
 
-1. **OpenCode Identity Injection**
-   - Added OpenCode CLI directives to all `.opencode/agents/*.md`.
-   - Updated agent template to include OpenCode identity and autonomous activation flow.
+1. **OpenCode Plan/Build Modes**
+   - Added PLAN/BUILD mode directives to all `.opencode/agents/*.md`.
+   - Updated agent template to include execution mode guidance and shared-state rules.
 
 2. **Todo Tracking in Task Templates**
    - Added `todowrite/todoread` tracking requirements in task templates:

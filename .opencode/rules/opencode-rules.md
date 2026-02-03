@@ -73,6 +73,16 @@ docs/
 
 ## Workflow Execution
 
+### OpenCode Modes (Plan/Build)
+
+- **PLAN**: Use for requirement gathering, decomposition, risk analysis, and brainstorming. Output a concise plan and decision points; defer execution.
+- **BUILD**: Use for implementation and verification. Read story/requirements, execute steps, run tests/lint/typecheck if available.
+- **Transition rule**: Start in PLAN when scope is unclear; move to BUILD when scope is agreed or objective is explicit.
+- **Skill selection**: Map the objective to a skill by reading `.opencode/skills/*/SKILL.md` Purpose; do not guess.
+- **Delegation**: Use skill/task names when delegating; clarify agent role and expected output.
+- **Terminology**: In this fork, skills are executable task workflows; use skill names for delegation.
+- **Shared state**: Use `docs/prd/`, `docs/stories/`, and `docs/architecture/` as the source of truth.
+
 ### AIOS Autonomous Protocol (Mandatory)
 
 1. **The Autonomous Loop**: When an objective is set, you MUST enter this loop immediately:

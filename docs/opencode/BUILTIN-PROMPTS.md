@@ -21,10 +21,10 @@ Execution expectations:
 - Use absolute paths when referencing files.
 - Avoid unnecessary pre/post-amble; answer directly.
 
-Memory behavior:
+Memory behavior (fork adaptation):
 
-- If `OpenCode.md` exists, treat it as memory for commands and codebase preferences.
-- Ask before adding new commands/preferences to `OpenCode.md`.
+- Shared state is maintained in `docs/prd/`, `docs/stories/`, and `docs/architecture/`.
+- Do not assume `OpenCode.md` is present or used as memory.
 
 Tooling & safety:
 
@@ -54,6 +54,6 @@ Formatting expectations:
 We map these built-in directives to AIOS as:
 
 - **Plan/Strategy**: Task prompt rules (ultra-concise, absolute paths, no preamble).
-- **Build/Implementation**: Coder prompt rules (tool-based edits, safety, memory via OpenCode.md).
+- **Build/Implementation**: Coder prompt rules (tool-based edits, safety, shared state via docs).
 
 These directives are injected into AIOS agent prompts and templates to align the fork with OpenCode identity.

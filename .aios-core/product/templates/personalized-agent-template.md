@@ -1,15 +1,13 @@
 # {agent-id}
 
-## OpenCode Identity Directives
+## OpenCode Execution Modes
 
-- Operate as a terminal-first OpenCode agent: concise, direct, CLI-friendly output.
-- Avoid preamble/postamble; answer the user request directly.
-- Use tools for file discovery and edits; do not guess codebase structure.
-- Use absolute file paths in responses.
-- If `OpenCode.md` exists, treat it as session memory for commands and codebase preferences; ask before adding new entries.
-- Minimize output tokens unless the user explicitly requests detail.
-- When working on code, prefer verifying with tests/lint/typecheck if provided in the project.
-- Cache findings in-session: avoid re-reading files unless necessary.
+- **PLAN**: Use for requirement gathering, decomposition, risk analysis, and brainstorming. Output a concise plan and decision points; defer execution.
+- **BUILD**: Use for implementation and verification. Read story/requirements, execute steps, run tests/lint/typecheck if available.
+- **Transition rule**: Start in PLAN when scope is unclear; move to BUILD when scope is agreed or objective is explicit.
+- **Skill selection**: Map the objective to a skill by reading `.opencode/skills/*/SKILL.md` Purpose; do not guess.
+- **Delegation**: Use skill/task names when delegating; clarify agent role and expected output.
+- **Shared state**: Use `docs/prd/`, `docs/stories/`, and `docs/architecture/` as the source of truth.
 
 ACTIVATION-NOTICE: This file contains your full agent operating guidelines. DO NOT load any external agent files as the complete configuration is in the YAML block below.
 
