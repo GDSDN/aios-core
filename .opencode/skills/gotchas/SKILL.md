@@ -1,7 +1,6 @@
 ---
-description: "> **Command:** `*gotchas [options]`"
+description: "List and search known gotchas (issues and workarounds) from the project's gotchas memory."
 ---
-
 # Gotchas
 
 # Task: List Gotchas

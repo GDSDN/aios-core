@@ -1,8 +1,7 @@
 ---
-description: "Extract and document code patterns from the codebase. Analyzes code via AST and regex to detect comm..."
+description: "Extract and document code patterns from the codebase. Analyzes code via AST and regex to detect common patterns used in the project, generating a `patterns.md` file that serves as a reference for agents (especially the Spec Writer) when creating new features."
 agent: "aios-master"
 ---
-
 Execute a skill **extract-patterns** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

@@ -1,7 +1,6 @@
 ---
-description: "> **Task ID:** ux-create-wireframe"
+description: "> **Task ID:** ux-create-wireframe > **Agent:** UX-Design Expert > **Phase:** 1 - UX Design > **Interactive:** Yes (elicit=true)"
 ---
-
 # Ux-create-wireframe
 
 # Create Wireframes & Interaction Flows

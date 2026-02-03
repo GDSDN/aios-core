@@ -2,7 +2,6 @@
 description: "Validate third-party library usage against official documentation using Context7."
 agent: "qa"
 ---
-
 Execute a skill **library-validation** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

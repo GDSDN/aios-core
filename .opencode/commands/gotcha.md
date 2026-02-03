@@ -2,7 +2,6 @@
 description: "Add a gotcha (known issue/workaround) manually to the project's gotchas memory."
 agent: "aios-master"
 ---
-
 Execute a skill **gotcha** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

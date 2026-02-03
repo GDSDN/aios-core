@@ -2,7 +2,6 @@
 description: "Provide a user-friendly interface to the AIOS knowledge base without overwhelming users with information upfront."
 agent: "aios-master"
 ---
-
 Execute a skill **kb-mode-interaction** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

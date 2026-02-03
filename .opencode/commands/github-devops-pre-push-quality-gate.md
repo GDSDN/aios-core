@@ -2,7 +2,6 @@
 description: "**Task**: Pre-Push Quality Gate Validation (Repository-Agnostic)"
 agent: "aios-master"
 ---
-
 Execute a skill **github-devops-pre-push-quality-gate** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

@@ -1,8 +1,7 @@
 ---
-description: "**Task ID:** `security-scan`"
+description: "Executa análise estática de segurança (SAST) no código do projeto/story. Automação total, zero intervenção manual, CLI-first."
 agent: "aios-master"
 ---
-
 Execute a skill **security-scan** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

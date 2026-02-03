@@ -1,7 +1,6 @@
 ---
-description: "name: run-tests"
+description: "--- name: run-tests agent: qa requires: - jest - coderabbit ---"
 ---
-
 # Run-tests
 
 ---

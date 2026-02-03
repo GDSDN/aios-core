@@ -1,8 +1,7 @@
 ---
-description: "> Task ID: atlas-extend-pattern"
+description: "> Task ID: atlas-extend-pattern > Agent: Atlas (Design System Builder) > Version: 1.0.0"
 agent: "aios-master"
 ---
-
 Execute a skill **extend-pattern** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

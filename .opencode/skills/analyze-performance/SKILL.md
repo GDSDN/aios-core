@@ -1,7 +1,6 @@
 ---
-description: "**Purpose**: Query performance analysis and optimization (explain plans, hotpath detection, interact..."
+description: "**Purpose**: Query performance analysis and optimization (explain plans, hotpath detection, interactive optimization)"
 ---
-
 # Analyze-performance
 
 # Task: Analyze Performance

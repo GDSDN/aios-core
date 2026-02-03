@@ -1,7 +1,6 @@
 ---
-description: "**Task ID:** create-worktree"
+description: "**Task ID:** create-worktree **Version:** 1.0 **Created:** 2026-01-28 (Story 1.3) **Agent:** @devops (Gage)"
 ---
-
 # Create-worktree
 
 # create-worktree

@@ -1,7 +1,6 @@
 ---
 description: "**Purpose**: Emulate authenticated user for RLS policy testing"
 ---
-
 # Test-as-user
 
 # Task: Test As User (RLS Testing)

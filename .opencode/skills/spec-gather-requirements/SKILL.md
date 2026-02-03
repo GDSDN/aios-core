@@ -1,7 +1,6 @@
 ---
-description: "> **Phase:** 1 - Gather"
+description: "Coletar e estruturar requisitos do usuário através de elicitation interativo. Transforma descrições informais em requisitos formais e categorizados."
 ---
-
 # Spec-gather-requirements
 
 # Spec Pipeline: Gather Requirements

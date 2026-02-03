@@ -1,7 +1,6 @@
 ---
-description: "> **Command:** `*build-status {story-id}` or `*build-status --all`"
+description: "Display current status of autonomous builds including progress, metrics, and health indicators."
 ---
-
 # Build-status
 
 # Task: Build Status

@@ -1,8 +1,7 @@
 ---
-description: "> Task ID: db-Squad-integration"
+description: "> Task ID: db-Squad-integration > Agent: DB Sage (Database Architect) > Version: 1.0.0"
 agent: "aios-master"
 ---
-
 Execute a skill **db-expansion-pack-integration** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

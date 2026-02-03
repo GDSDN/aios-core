@@ -1,8 +1,7 @@
 ---
-description: "> Task ID: brad-consolidate-patterns"
+description: "> Task ID: brad-consolidate-patterns > Agent: Brad (Design System Architect) > Version: 1.0.0"
 agent: "aios-master"
 ---
-
 Execute a skill **consolidate-patterns** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

@@ -1,8 +1,7 @@
 ---
-description: "Ativar agente @pm (Product Manager)"
+description: "Ative o agente @pm para processar sua solicitação: $ARGUMENTS"
 agent: "pm"
 ---
-
 Ative o agente @pm para processar sua solicitação: $ARGUMENTS
 
 Instruções:

@@ -1,7 +1,6 @@
 ---
 description: "**Purpose**: Execute SQL file or inline SQL with transaction safety and timing"
 ---
-
 # Db-run-sql
 
 # Task: Run SQL

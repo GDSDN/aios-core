@@ -1,8 +1,7 @@
 ---
-description: "> **Phase:** Execution - Verification"
+description: "Verify that a subtask has been completed successfully by running the configured verification type (command, api, browser, e2e). Uses the subtask-verifier.js script for execution."
 agent: "aios-master"
 ---
-
 Execute a skill **verify-subtask** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

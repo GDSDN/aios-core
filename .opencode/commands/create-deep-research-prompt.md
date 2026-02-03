@@ -2,7 +2,6 @@
 description: "Generate well-structured research prompts that:"
 agent: "aios-master"
 ---
-
 Execute a skill **create-deep-research-prompt** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

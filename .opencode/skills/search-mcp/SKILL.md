@@ -1,7 +1,6 @@
 ---
 description: "> Search and discover available MCP servers in the Docker MCP Toolkit catalog."
 ---
-
 # Search-mcp
 
 # Search MCP Catalog Task

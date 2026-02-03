@@ -1,8 +1,7 @@
 ---
-description: "**Task ID:** `improve-self`"
+description: "Enable the meta-agent to improve its own capabilities with comprehensive safeguards. This task allows self-modification with mandatory safety checks, backups, and user approval."
 agent: "aios-master"
 ---
-
 Execute a skill **improve-self** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

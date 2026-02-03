@@ -1,7 +1,6 @@
 ---
-description: "> **Command:** `*build-resume {story-id}`"
+description: "Resume an autonomous build from its last checkpoint after failure or interruption."
 ---
-
 # Build-resume
 
 # Task: Build Resume

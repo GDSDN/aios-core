@@ -1,8 +1,7 @@
 ---
-description: "task: extendSquad()"
+description: "Add new components to an existing squad with automatic manifest updates and validation. This task enables incremental squad improvement without manual file manipulation."
 agent: "aios-master"
 ---
-
 Execute a skill **squad-creator-extend** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

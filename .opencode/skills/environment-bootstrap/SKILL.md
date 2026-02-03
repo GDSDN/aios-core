@@ -1,7 +1,6 @@
 ---
-description: "**Task ID:** environment-bootstrap"
+description: "Complete environment bootstrap for new AIOS projects. Verifies and installs all required CLIs, authenticates services, initializes Git/GitHub repository, and validates the development environment before starting the greenfield workflow."
 ---
-
 # Environment-bootstrap
 
 # environment-bootstrap

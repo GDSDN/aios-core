@@ -1,7 +1,6 @@
 ---
 description: "Analyze code and suggest automated refactoring opportunities to improve code quality, maintainability, and performance."
 ---
-
 # Suggest-refactoring
 
 ---

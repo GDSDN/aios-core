@@ -1,7 +1,6 @@
 ---
-description: "**Task ID:** init-project-status"
+description: "**Task ID:** init-project-status **Version:** 1.0 **Created:** 2025-01-14 (Story 6.1.2.4) **Agent:** @devops (Gage)"
 ---
-
 # Init-project-status
 
 # init-project-status

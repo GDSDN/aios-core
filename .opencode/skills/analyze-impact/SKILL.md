@@ -1,7 +1,6 @@
 ---
 description: "Analyze the potential impact of proposed component modifications on the broader Synkra AIOS framework."
 ---
-
 # Analyze-impact
 
 # An

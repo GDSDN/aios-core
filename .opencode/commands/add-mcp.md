@@ -2,7 +2,6 @@
 description: "> Dynamically add MCP servers to Docker MCP Toolkit from the catalog."
 agent: "aios-master"
 ---
-
 Execute a skill **add-mcp** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

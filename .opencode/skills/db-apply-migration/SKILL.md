@@ -1,7 +1,6 @@
 ---
 description: "**Purpose**: Safely apply a migration with pre/post snapshots and exclusive lock"
 ---
-
 # Db-apply-migration
 
 # Task: Apply Migration (with snapshot + advisory lock)

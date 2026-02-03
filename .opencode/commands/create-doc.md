@@ -1,8 +1,7 @@
 ---
-description: "Skill to create doc."
+description: "---"
 agent: "aios-master"
 ---
-
 Execute a skill **create-doc** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

@@ -2,7 +2,6 @@
 description: "**Purpose**: Create schema-only snapshot for rollback capability"
 agent: "aios-master"
 ---
-
 Execute a skill **db-snapshot** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

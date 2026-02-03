@@ -2,7 +2,6 @@
 description: "Analyze the potential impact of proposed component modifications on the broader Synkra AIOS framework."
 agent: "architect"
 ---
-
 Execute a skill **analyze-impact** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

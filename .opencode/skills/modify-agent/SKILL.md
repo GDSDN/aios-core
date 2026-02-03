@@ -1,7 +1,6 @@
 ---
-description: "To safely modify existing agent definitions while preserving their structure, maintaining compatibility, and providing rollback capabilities. This ..."
+description: "To safely modify existing agent definitions while preserving their structure, maintaining compatibility, and providing rollback capabilities. This task enables the meta-agent to evolve agent capabilities through targeted modifications with comprehensive validation."
 ---
-
 # Modify-agent
 
 ---

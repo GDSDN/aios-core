@@ -1,8 +1,7 @@
 ---
-description: "> Task ID: atlas-build-component"
+description: "> Task ID: atlas-build-component > Agent: Atlas (Design System Builder) > Version: 1.0.0"
 agent: "aios-master"
 ---
-
 Execute a skill **build-component** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

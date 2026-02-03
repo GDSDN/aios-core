@@ -1,7 +1,6 @@
 ---
-description: "**Task ID:** setup-github"
+description: "Configure complete GitHub DevOps infrastructure for user projects created with AIOS. This task copies GitHub Actions workflows, configures CodeRabbit, sets up branch protection, and manages secrets."
 ---
-
 # Setup-github
 
 # setup-github

@@ -1,8 +1,7 @@
 ---
-description: "Ativar agente @analyst (Business Analyst)"
+description: "Ative o agente @analyst para processar sua solicitação: $ARGUMENTS"
 agent: "analyst"
 ---
-
 Ative o agente @analyst para processar sua solicitação: $ARGUMENTS
 
 Instruções:

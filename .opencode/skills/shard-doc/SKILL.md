@@ -1,7 +1,6 @@
 ---
-description: "- Split a large document into multiple smaller documents based on level 2 sections"
+description: "- Split a large document into multiple smaller documents based on level 2 sections - Create a folder structure to organize the sharded documents - Maintain all content integrity including code blocks, diagrams, and markdown formatting"
 ---
-
 # Shard-doc
 
 ---

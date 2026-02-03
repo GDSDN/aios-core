@@ -2,7 +2,6 @@
 description: "> Create Code Mode workflows that execute in Docker MCP sandbox for ~98.7% token savings."
 agent: "aios-master"
 ---
-
 Execute a skill **mcp-workflow** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

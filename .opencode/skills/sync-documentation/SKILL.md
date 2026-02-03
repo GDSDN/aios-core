@@ -1,7 +1,6 @@
 ---
-description: "**Task ID:** `sync-documentation`"
+description: "Automatically synchronize documentation with code changes to ensure documentation stays up-to-date with implementation."
 ---
-
 # Sync-documentation
 
 # sync-documentation

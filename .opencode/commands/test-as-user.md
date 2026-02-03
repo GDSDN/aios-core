@@ -2,7 +2,6 @@
 description: "**Purpose**: Emulate authenticated user for RLS policy testing"
 agent: "aios-master"
 ---
-
 Execute a skill **test-as-user** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

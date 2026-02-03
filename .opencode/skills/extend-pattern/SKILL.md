@@ -1,7 +1,6 @@
 ---
-description: "> Task ID: atlas-extend-pattern"
+description: "> Task ID: atlas-extend-pattern > Agent: Atlas (Design System Builder) > Version: 1.0.0"
 ---
-
 # Extend-pattern
 
 # Extend Existing Pattern

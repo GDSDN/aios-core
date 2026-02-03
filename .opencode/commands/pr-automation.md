@@ -1,8 +1,7 @@
 ---
-description: "id: pr-automation"
+description: "To help users contribute to the AIOS open-source project (`@synkra/aios-core`) by automating the PR creation process, ensuring contributions follow project standards, pass quality checks, and have proper formatting before submission."
 agent: "aios-master"
 ---
-
 Execute a skill **pr-automation** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

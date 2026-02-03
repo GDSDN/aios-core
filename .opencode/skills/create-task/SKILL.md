@@ -1,7 +1,6 @@
 ---
 description: "To create a new task file that defines executable workflows for agents, with proper structure, elicitation steps, and validation."
 ---
-
 # Create-task
 
 ---

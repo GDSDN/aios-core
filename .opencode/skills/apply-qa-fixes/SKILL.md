@@ -1,7 +1,6 @@
 ---
-description: "When a story receives QA feedback, this task helps developers:"
+description: "When a story receives QA feedback, this task helps developers: - Review QA gate findings systematically - Prioritize issues by severity - Apply fixes while maintaining code quality - Re-validate after changes"
 ---
-
 # Apply-qa-fixes
 
 # Ap

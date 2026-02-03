@@ -1,8 +1,7 @@
 ---
-description: "> Task ID: atlas-compose-molecule"
+description: "> Task ID: atlas-compose-molecule > Agent: Atlas (Design System Builder) > Version: 1.0.0"
 agent: "aios-master"
 ---
-
 Execute a skill **compose-molecule** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

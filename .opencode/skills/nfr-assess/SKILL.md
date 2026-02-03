@@ -1,7 +1,6 @@
 ---
-description: "<!-- Powered by AIOS™ Core -->"
+description: "Assess non-functional requirements for a story and generate:"
 ---
-
 # Nfr-assess
 
 <!-- Powered by AIOS™ Core -->

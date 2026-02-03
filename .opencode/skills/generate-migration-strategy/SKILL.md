@@ -1,7 +1,6 @@
 ---
-description: "> Task ID: brad-generate-migration-strategy"
+description: "> Task ID: brad-generate-migration-strategy > Agent: Brad (Design System Architect) > Version: 1.0.0"
 ---
-
 # Generate-migration-strategy
 
 # Generate Phased Migration Strategy

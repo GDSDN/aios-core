@@ -1,8 +1,7 @@
 ---
-description: "Ativar agente @qa (Test Architect & Quality Advisor)"
+description: "Ative o agente @qa para processar sua solicitação: $ARGUMENTS"
 agent: "qa"
 ---
-
 Ative o agente @qa para processar sua solicitação: $ARGUMENTS
 
 Instruções:

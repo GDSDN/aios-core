@@ -1,7 +1,6 @@
 ---
-description: "**Task ID:** `improve-self`"
+description: "Enable the meta-agent to improve its own capabilities with comprehensive safeguards. This task allows self-modification with mandatory safety checks, backups, and user approval."
 ---
-
 # Improve-self
 
 # improve-self

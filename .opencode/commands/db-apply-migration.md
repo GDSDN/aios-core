@@ -2,7 +2,6 @@
 description: "**Purpose**: Safely apply a migration with pre/post snapshots and exclusive lock"
 agent: "aios-master"
 ---
-
 Execute a skill **db-apply-migration** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

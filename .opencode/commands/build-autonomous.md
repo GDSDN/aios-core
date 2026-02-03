@@ -1,8 +1,7 @@
 ---
-description: "> **Command:** `*build-autonomous {story-id}`"
+description: "Start an autonomous build loop for a story, executing subtasks with automatic retries and self-critique."
 agent: "aios-master"
 ---
-
 Execute a skill **build-autonomous** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

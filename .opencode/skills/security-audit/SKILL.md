@@ -1,7 +1,6 @@
 ---
-description: "**Purpose**: Comprehensive database security and quality audit (RLS coverage, schema design, full sy..."
+description: "**Purpose**: Comprehensive database security and quality audit (RLS coverage, schema design, full system)"
 ---
-
 # Security-audit
 
 # Task: Security Audit

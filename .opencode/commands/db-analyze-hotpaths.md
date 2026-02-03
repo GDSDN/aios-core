@@ -2,7 +2,6 @@
 description: "**Purpose**: Run EXPLAIN ANALYZE on common/critical queries to identify performance issues"
 agent: "aios-master"
 ---
-
 Execute a skill **db-analyze-hotpaths** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

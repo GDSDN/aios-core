@@ -2,7 +2,6 @@
 description: "**Purpose**: Run post-migration validation checks"
 agent: "aios-master"
 ---
-
 Execute a skill **db-smoke-test** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

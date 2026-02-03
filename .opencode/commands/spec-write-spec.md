@@ -1,8 +1,7 @@
 ---
-description: "> **Phase:** 4 - Write"
+description: "Produzir especificação completa e executável a partir dos artefatos das fases anteriores. O spec.md é o documento definitivo que guia a implementação - nenhuma invenção, apenas derivação dos inputs."
 agent: "aios-master"
 ---
-
 Execute a skill **spec-write-spec** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

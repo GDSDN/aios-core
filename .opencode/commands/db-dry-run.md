@@ -2,7 +2,6 @@
 description: "**Purpose**: Execute migration inside BEGIN…ROLLBACK to catch syntax/ordering errors"
 agent: "aios-master"
 ---
-
 Execute a skill **db-dry-run** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

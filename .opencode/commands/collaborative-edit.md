@@ -2,7 +2,6 @@
 description: "Create and manage collaborative editing sessions for real-time component modification with multiple participants."
 agent: "aios-master"
 ---
-
 Execute a skill **collaborative-edit** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

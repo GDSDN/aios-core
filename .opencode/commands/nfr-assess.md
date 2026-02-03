@@ -1,8 +1,7 @@
 ---
-description: "<!-- Powered by AIOS™ Core -->"
+description: "Assess non-functional requirements for a story and generate:"
 agent: "qa"
 ---
-
 Execute a skill **nfr-assess** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

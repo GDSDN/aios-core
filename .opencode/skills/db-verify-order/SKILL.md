@@ -1,7 +1,6 @@
 ---
 description: "**Purpose**: Lint DDL for safe execution order to avoid dependency errors"
 ---
-
 # Db-verify-order
 
 # Task: Verify DDL Ordering

@@ -2,7 +2,6 @@
 description: "**Purpose**: Report tables with/without RLS and list all policies"
 agent: "aios-master"
 ---
-
 Execute a skill **db-rls-audit** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

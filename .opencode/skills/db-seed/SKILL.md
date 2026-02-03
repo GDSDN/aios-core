@@ -1,7 +1,6 @@
 ---
 description: "**Purpose**: Safely apply seed data to database with idempotent operations"
 ---
-
 # Db-seed
 
 # Task: Apply Seed Data

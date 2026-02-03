@@ -1,7 +1,6 @@
 ---
 description: "**Purpose**: Create schema-only snapshot for rollback capability"
 ---
-
 # Db-snapshot
 
 # Task: Create Database Snapshot

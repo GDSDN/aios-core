@@ -1,8 +1,7 @@
 ---
-description: "**Agent:** @dev"
+description: "**Agent:** @dev **Command:** `*backlog-debt` **Purpose:** Register technical debt item to backlog **Created:** 2025-01-16 (Story 6.1.2.6)"
 agent: "dev"
 ---
-
 Execute a skill **backlog-debt** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

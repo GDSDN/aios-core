@@ -1,8 +1,7 @@
 ---
-description: "> **Command:** `*build {story-id}`"
+description: "Execute a complete autonomous build for a story with a single command."
 agent: "aios-master"
 ---
-
 Execute a skill **build** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

@@ -1,7 +1,6 @@
 ---
 description: "**Purpose**: Report tables with/without RLS and list all policies"
 ---
-
 # Db-rls-audit
 
 # Task: RLS Audit

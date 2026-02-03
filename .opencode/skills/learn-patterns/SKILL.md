@@ -1,7 +1,6 @@
 ---
 description: "Learn patterns from successful modifications to improve future meta-agent suggestions and automation."
 ---
-
 # Learn-patterns
 
 ---

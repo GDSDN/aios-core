@@ -1,8 +1,7 @@
 ---
-description: "Generate a structured fix request document (`QA_FIX_REQUEST.md`) for @dev based on QA review finding..."
+description: "Generate a structured fix request document (`QA_FIX_REQUEST.md`) for @dev based on QA review findings."
 agent: "qa"
 ---
-
 Execute a skill **create-fix-request** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

@@ -1,7 +1,6 @@
 ---
-description: "Design a complete test strategy that identifies what to test, at which level (unit/integration/e2e), and why. This ensures efficient test coverage ..."
+description: "Design a complete test strategy that identifies what to test, at which level (unit/integration/e2e), and why. This ensures efficient test coverage without redundancy while maintaining appropriate test boundaries."
 ---
-
 # Test-design
 
 <!--

@@ -1,7 +1,6 @@
 ---
-description: "Create a single user story for very small brownfield enhancements that can be completed in one focused development session. This task is for minima..."
+description: "Create a single user story for very small brownfield enhancements that can be completed in one focused development session. This task is for minimal additions or bug fixes that require existing system integration awareness."
 ---
-
 # Brownfield-create-story
 
 ---

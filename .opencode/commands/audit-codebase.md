@@ -1,8 +1,7 @@
 ---
-description: "> Task ID: brad-audit-codebase"
+description: "> Task ID: brad-audit-codebase > Agent: Brad (Design System Architect) > Version: 1.0.0"
 agent: "aios-master"
 ---
-
 Execute a skill **audit-codebase** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

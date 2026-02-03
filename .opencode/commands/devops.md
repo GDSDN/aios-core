@@ -1,8 +1,7 @@
 ---
-description: "Ativar agente @devops (GitHub Repository Manager & DevOps Specialist)"
+description: "Ative o agente @devops para processar sua solicitação: $ARGUMENTS"
 agent: "devops"
 ---
-
 Ative o agente @devops para processar sua solicitação: $ARGUMENTS
 
 Instruções:

@@ -1,7 +1,6 @@
 ---
-description: "**Purpose:** Capture insights from development sessions to enable persistent learning between sessio..."
+description: "**Purpose:** Capture insights from development sessions to enable persistent learning between sessions. Part of Epic 7 - Memory Layer."
 ---
-
 # Capture-session-insights
 
 # Capture Session Insights

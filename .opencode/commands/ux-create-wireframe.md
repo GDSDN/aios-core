@@ -1,8 +1,7 @@
 ---
-description: "> **Task ID:** ux-create-wireframe"
+description: "> **Task ID:** ux-create-wireframe > **Agent:** UX-Design Expert > **Phase:** 1 - UX Design > **Interactive:** Yes (elicit=true)"
 agent: "aios-master"
 ---
-
 Execute a skill **ux-create-wireframe** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

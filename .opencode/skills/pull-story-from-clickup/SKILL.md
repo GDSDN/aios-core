@@ -1,7 +1,6 @@
 ---
-description: "Skill to pull story from clickup."
+description: "--- tools: - clickup # Required for ClickUp integration checklists: - po-master-checklist.md ---"
 ---
-
 # Pull-story-from-clickup
 
 ---

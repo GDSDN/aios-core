@@ -2,7 +2,6 @@
 description: "**Purpose**: Comprehensive audit of database schema quality and best practices"
 agent: "aios-master"
 ---
-
 Execute a skill **db-schema-audit** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

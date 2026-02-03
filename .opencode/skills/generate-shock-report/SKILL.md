@@ -1,7 +1,6 @@
 ---
-description: "> Task ID: brad-generate-shock-report"
+description: "> Task ID: brad-generate-shock-report > Agent: Brad (Design System Architect) > Version: 1.0.0"
 ---
-
 # Generate-shock-report
 
 # Generate Visual Shock Report

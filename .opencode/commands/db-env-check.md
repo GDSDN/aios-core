@@ -2,7 +2,6 @@
 description: "**Purpose**: Validate environment for DB operations without leaking secrets"
 agent: "aios-master"
 ---
-
 Execute a skill **db-env-check** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

@@ -1,7 +1,6 @@
 ---
-description: "> Task ID: atlas-compose-molecule"
+description: "> Task ID: atlas-compose-molecule > Agent: Atlas (Design System Builder) > Version: 1.0.0"
 ---
-
 # Compose-molecule
 
 # Compose Molecule from Atoms

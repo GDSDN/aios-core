@@ -1,8 +1,7 @@
 ---
-description: "> **Command:** `*build-resume {story-id}`"
+description: "Resume an autonomous build from its last checkpoint after failure or interruption."
 agent: "aios-master"
 ---
-
 Execute a skill **build-resume** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

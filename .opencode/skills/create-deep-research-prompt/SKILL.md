@@ -1,7 +1,6 @@
 ---
 description: "Generate well-structured research prompts that:"
 ---
-
 # Create-deep-research-prompt
 
 ---

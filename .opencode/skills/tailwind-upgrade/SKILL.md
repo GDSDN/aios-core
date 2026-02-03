@@ -1,7 +1,6 @@
 ---
-description: "> Task ID: brad-tailwind-upgrade"
+description: "> Task ID: brad-tailwind-upgrade > Agent: Brad (Design System Architect) > Version: 1.0.0"
 ---
-
 # Tailwind-upgrade
 
 # Tailwind CSS v4 Upgrade Playbook

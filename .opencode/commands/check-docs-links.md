@@ -2,7 +2,6 @@
 description: "Verifica a integridade dos links internos na documentação markdown."
 agent: "aios-master"
 ---
-
 Execute a skill **check-docs-links** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

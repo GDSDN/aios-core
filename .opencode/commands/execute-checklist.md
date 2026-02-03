@@ -1,8 +1,7 @@
 ---
-description: "Skill to execute checklist."
+description: "---"
 agent: "aios-master"
 ---
-
 Execute a skill **execute-checklist** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

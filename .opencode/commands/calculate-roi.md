@@ -1,8 +1,7 @@
 ---
-description: "> Task ID: brad-calculate-roi"
+description: "> Task ID: brad-calculate-roi > Agent: Brad (Design System Architect) > Version: 1.0.0"
 agent: "aios-master"
 ---
-
 Execute a skill **calculate-roi** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

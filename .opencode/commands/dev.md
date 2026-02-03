@@ -1,8 +1,7 @@
 ---
-description: "Ativar agente @dev (Full Stack Developer)"
+description: "Ative o agente @dev para processar sua solicitação: $ARGUMENTS"
 agent: "dev"
 ---
-
 Ative o agente @dev para processar sua solicitação: $ARGUMENTS
 
 Instruções:

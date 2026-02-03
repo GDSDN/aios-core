@@ -1,7 +1,6 @@
 ---
-description: "Create a requirements traceability matrix that ensures every acceptance criterion has corresponding test coverage. This task helps identify gaps in..."
+description: "Create a requirements traceability matrix that ensures every acceptance criterion has corresponding test coverage. This task helps identify gaps in testing and ensures all requirements are validated."
 ---
-
 # Trace-requirements
 
 <!--

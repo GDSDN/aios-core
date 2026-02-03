@@ -2,7 +2,6 @@
 description: "**Task**: Semantic Version Management (Repository-Agnostic)"
 agent: "aios-master"
 ---
-
 Execute a skill **github-devops-version-management** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

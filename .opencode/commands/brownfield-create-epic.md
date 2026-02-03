@@ -1,8 +1,7 @@
 ---
-description: "Create a single epic for smaller brownfield enhancements that don't require the full PRD and Architecture documentation process. This task is for i..."
+description: "Create a single epic for smaller brownfield enhancements that don't require the full PRD and Architecture documentation process. This task is for isolated features or modifications that can be completed within a focused scope."
 agent: "aios-master"
 ---
-
 Execute a skill **brownfield-create-epic** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

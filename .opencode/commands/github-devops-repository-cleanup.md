@@ -2,7 +2,6 @@
 description: "**Task**: Repository Cleanup (Repository-Agnostic)"
 agent: "aios-master"
 ---
-
 Execute a skill **github-devops-repository-cleanup** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

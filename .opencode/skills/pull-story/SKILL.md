@@ -1,7 +1,6 @@
 ---
-description: "Skill to pull story."
+description: "--- tools: - pm-tool # Uses configured PM tool (ClickUp, GitHub, Jira, or local-only) ---"
 ---
-
 # Pull-story
 
 ---

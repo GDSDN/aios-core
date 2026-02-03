@@ -1,8 +1,7 @@
 ---
-description: "**Task ID:** `sync-documentation`"
+description: "Automatically synchronize documentation with code changes to ensure documentation stays up-to-date with implementation."
 agent: "aios-master"
 ---
-
 Execute a skill **sync-documentation** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

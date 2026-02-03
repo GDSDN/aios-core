@@ -1,7 +1,6 @@
 ---
 description: "**Purpose**: Run EXPLAIN ANALYZE on common/critical queries to identify performance issues"
 ---
-
 # Db-analyze-hotpaths
 
 # Task: Analyze Hot Query Paths

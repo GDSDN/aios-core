@@ -2,7 +2,6 @@
 description: "**Purpose**: Lint DDL for safe execution order to avoid dependency errors"
 agent: "aios-master"
 ---
-
 Execute a skill **db-verify-order** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

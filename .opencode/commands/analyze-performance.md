@@ -1,8 +1,7 @@
 ---
-description: "**Purpose**: Query performance analysis and optimization (explain plans, hotpath detection, interact..."
+description: "**Purpose**: Query performance analysis and optimization (explain plans, hotpath detection, interactive optimization)"
 agent: "aios-master"
 ---
-
 Execute a skill **analyze-performance** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

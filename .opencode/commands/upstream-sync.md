@@ -1,8 +1,7 @@
 ---
 name: 'upstream-sync'
-description: 'Compare upstream commits and generate an OpenCode adaptation story when relevant.'
+description: "Compare upstream changes against the current OpenCode fork, classify relevance, and generate an adaptation story only for changes that are systemic and safe to port."
 ---
-
 # Upstream Sync
 
 RUN git remote -v

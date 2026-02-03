@@ -1,8 +1,7 @@
 ---
-description: "> Task ID: brad-tailwind-upgrade"
+description: "> Task ID: brad-tailwind-upgrade > Agent: Brad (Design System Architect) > Version: 1.0.0"
 agent: "aios-master"
 ---
-
 Execute a skill **tailwind-upgrade** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

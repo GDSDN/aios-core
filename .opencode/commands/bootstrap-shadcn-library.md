@@ -1,8 +1,7 @@
 ---
-description: "> Task ID: atlas-bootstrap-shadcn"
+description: "> Task ID: atlas-bootstrap-shadcn > Agent: Atlas (Design System Builder) > Version: 1.0.0"
 agent: "aios-master"
 ---
-
 Execute a skill **bootstrap-shadcn-library** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

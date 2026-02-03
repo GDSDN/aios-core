@@ -1,7 +1,6 @@
 ---
-description: "> **Phase:** 5 - Critique"
+description: "Validar e criticar a especificação antes da implementação. Avalia accuracy, completeness, consistency, feasibility e alignment. Produz verdict (APPROVED/NEEDS_REVISION/BLOCKED) e pode sugerir correções."
 ---
-
 # Spec-critique
 
 # Spec Pipeline: Critique Specification

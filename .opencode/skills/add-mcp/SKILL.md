@@ -1,7 +1,6 @@
 ---
 description: "> Dynamically add MCP servers to Docker MCP Toolkit from the catalog."
 ---
-
 # Add-mcp
 
 # Add MCP Server Task

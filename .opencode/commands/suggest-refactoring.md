@@ -2,7 +2,6 @@
 description: "Analyze code and suggest automated refactoring opportunities to improve code quality, maintainability, and performance."
 agent: "dev"
 ---
-
 Execute a skill **suggest-refactoring** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

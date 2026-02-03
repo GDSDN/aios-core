@@ -1,7 +1,6 @@
 ---
-description: "Suggest next commands based on current workflow context using the Workflow Intelligence System (WIS)..."
+description: "Suggest next commands based on current workflow context using the Workflow Intelligence System (WIS). Helps users navigate workflows efficiently without memorizing command sequences."
 ---
-
 # Next
 
 # Next Command Suggestions

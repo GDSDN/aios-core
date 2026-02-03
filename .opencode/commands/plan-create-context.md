@@ -1,8 +1,7 @@
 ---
-description: "> **Phase:** execution-context"
+description: "Gera os arquivos de contexto necessários para a fase de planejamento/implementação de uma story. Extrai informações do projeto (stack, convenções, padrões) e identifica arquivos relevantes para o escopo do story."
 agent: "aios-master"
 ---
-
 Execute a skill **plan-create-context** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

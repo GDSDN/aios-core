@@ -1,8 +1,7 @@
 ---
-description: "Performs comprehensive analysis of the Synkra AIOS framework to identify improvement opportunities, ..."
+description: "Performs comprehensive analysis of the Synkra AIOS framework to identify improvement opportunities, performance bottlenecks, component redundancies, and usage patterns."
 agent: "aios-master"
 ---
-
 Execute a skill **analyze-framework** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

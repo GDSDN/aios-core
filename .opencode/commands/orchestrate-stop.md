@@ -1,8 +1,7 @@
 ---
-description: "title: Orchestrate Stop"
+description: "--- title: Orchestrate Stop description: Stop orchestrator execution for a story agent: aios-master version: 1.0.0 story: '0.9' epic: '0' ---"
 agent: "aios-master"
 ---
-
 Execute a skill **orchestrate-stop** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

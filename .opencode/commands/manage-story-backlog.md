@@ -1,8 +1,7 @@
 ---
-description: "The Story Backlog provides a centralized, structured way to:"
+description: "The Story Backlog provides a centralized, structured way to: - Track follow-up tasks identified during QA reviews - Document technical debt from development - Capture optimization opportunities - Prioritize work across sprints - Maintain visibility into deferred work"
 agent: "po"
 ---
-
 Execute a skill **manage-story-backlog** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

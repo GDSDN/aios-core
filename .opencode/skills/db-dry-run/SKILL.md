@@ -1,7 +1,6 @@
 ---
 description: "**Purpose**: Execute migration inside BEGIN…ROLLBACK to catch syntax/ordering errors"
 ---
-
 # Db-dry-run
 
 # Task: Migration Dry-Run

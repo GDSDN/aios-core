@@ -1,8 +1,7 @@
 ---
-description: "Ativar agente @po (Product Owner)"
+description: "Ative o agente @po para processar sua solicitação: $ARGUMENTS"
 agent: "po"
 ---
-
 Ative o agente @po para processar sua solicitação: $ARGUMENTS
 
 Instruções:

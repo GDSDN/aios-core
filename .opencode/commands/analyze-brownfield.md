@@ -1,8 +1,7 @@
 ---
-description: "Analyze an existing project to understand its structure, tech stack, coding standards, and CI/CD workflows before AIOS integration. This task provi..."
+description: "Analyze an existing project to understand its structure, tech stack, coding standards, and CI/CD workflows before AIOS integration. This task provides recommendations for safe integration and identifies potential conflicts."
 agent: "aios-master"
 ---
-
 Execute a skill **analyze-brownfield** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

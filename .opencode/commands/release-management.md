@@ -1,8 +1,7 @@
 ---
-description: "id: release-management"
+description: "To automate the complete software release process, including:"
 agent: "aios-master"
 ---
-
 Execute a skill **release-management** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

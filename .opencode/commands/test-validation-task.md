@@ -1,8 +1,7 @@
 ---
-description: "This is a test task created for validating the create-task task execution. It provides minimal functionality to test task creation workflow."
+description: "This is a test task created for validating the `create-task` task execution. It provides minimal functionality to test task creation workflow."
 agent: "aios-master"
 ---
-
 Execute a skill **test-validation-task** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

@@ -1,8 +1,7 @@
 ---
-description: "Skill to create suite."
+description: "--- tools: - github-cli"
 agent: "aios-master"
 ---
-
 Execute a skill **create-suite** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

@@ -1,8 +1,7 @@
 ---
-description: "Skill to pull story."
+description: "--- tools: - pm-tool # Uses configured PM tool (ClickUp, GitHub, Jira, or local-only) ---"
 agent: "po"
 ---
-
 Execute a skill **pull-story** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

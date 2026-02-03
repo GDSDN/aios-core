@@ -1,7 +1,6 @@
 ---
-description: "To safely modify existing workflow definitions while maintaining their orchestration logic, preserving phase transitions, and ensuring all agent in..."
+description: "To safely modify existing workflow definitions while maintaining their orchestration logic, preserving phase transitions, and ensuring all agent interactions remain valid. This task enables workflow evolution through intelligent modifications with comprehensive validation."
 ---
-
 # Modify-workflow
 
 ---

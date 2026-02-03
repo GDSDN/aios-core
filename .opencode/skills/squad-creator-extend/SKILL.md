@@ -1,7 +1,6 @@
 ---
-description: "task: extendSquad()"
+description: "Add new components to an existing squad with automatic manifest updates and validation. This task enables incremental squad improvement without manual file manipulation."
 ---
-
 # Squad-creator-extend
 
 ---

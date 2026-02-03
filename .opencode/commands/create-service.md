@@ -1,8 +1,7 @@
 ---
-description: "Create a new service using standardized Handlebars templates from WIS-10. Generates consistent TypeS..."
+description: "Create a new service using standardized Handlebars templates from WIS-10. Generates consistent TypeScript service structures with proper configuration, testing, and documentation."
 agent: "aios-master"
 ---
-
 Execute a skill **create-service** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

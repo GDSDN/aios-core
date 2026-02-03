@@ -2,7 +2,6 @@
 description: "Review and provide feedback on modification proposals submitted through the collaborative modification system."
 agent: "qa"
 ---
-
 Execute a skill **review-proposal** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

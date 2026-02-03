@@ -1,7 +1,6 @@
 ---
 description: "Critical thinking checklist to prevent confirmation bias and false positive approvals."
 ---
-
 # False-positive-detection
 
 # False Positive Detection Task

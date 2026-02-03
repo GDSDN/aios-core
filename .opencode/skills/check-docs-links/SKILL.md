@@ -1,7 +1,6 @@
 ---
 description: "Verifica a integridade dos links internos na documentação markdown."
 ---
-
 # Check-docs-links
 
 # check-docs-links

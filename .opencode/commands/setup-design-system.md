@@ -1,8 +1,7 @@
 ---
-description: "> Task ID: atlas-setup-design-system"
+description: "> Task ID: atlas-setup-design-system > Agent: Atlas (Design System Builder) > Version: 1.0.0"
 agent: "aios-master"
 ---
-
 Execute a skill **setup-design-system** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

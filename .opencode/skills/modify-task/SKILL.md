@@ -1,7 +1,6 @@
 ---
-description: "To safely modify existing task definitions while maintaining their effectiveness, preserving elicitation flows, and ensuring backward compatibility..."
+description: "To safely modify existing task definitions while maintaining their effectiveness, preserving elicitation flows, and ensuring backward compatibility. This task enables evolution of task capabilities through intelligent modifications with comprehensive validation."
 ---
-
 # Modify-task
 
 ---

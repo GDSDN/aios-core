@@ -1,7 +1,6 @@
 ---
 description: "Validate database migrations are properly created and applied for schema changes."
 ---
-
 # Migration-validation
 
 # Migration Validation Task

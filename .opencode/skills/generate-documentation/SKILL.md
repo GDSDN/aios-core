@@ -1,7 +1,6 @@
 ---
-description: "> Task ID: atlas-generate-documentation"
+description: "> Task ID: atlas-generate-documentation > Agent: Atlas (Design System Builder) > Version: 1.0.0"
 ---
-
 # Generate-documentation
 
 # Generate Pattern Library Documentation

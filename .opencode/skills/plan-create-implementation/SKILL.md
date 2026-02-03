@@ -1,7 +1,6 @@
 ---
-description: "> **Phase:** 1 - Plan"
+description: "Gerar planos de implementacao executaveis a partir de specs aprovados. Transforma o spec.md em uma sequencia de subtasks atomicas, cada uma com verificacao, formando um roadmap deterministico para o coder."
 ---
-
 # Plan-create-implementation
 
 # Execution Pipeline: Create Implementation Plan

@@ -1,7 +1,6 @@
 ---
 description: "To create a new agent definition file following Synkra AIOS standards using the template system with progressive disclosure elicitation."
 ---
-
 # Create-agent
 
 ---

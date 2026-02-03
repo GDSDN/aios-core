@@ -1,8 +1,7 @@
 ---
-description: "> Task ID: brad-extract-tokens"
+description: "> Task ID: brad-extract-tokens > Agent: Brad (Design System Architect) > Version: 1.0.0"
 agent: "aios-master"
 ---
-
 Execute a skill **extract-tokens** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

@@ -1,8 +1,7 @@
 ---
-description: "**Task ID:** environment-bootstrap"
+description: "Complete environment bootstrap for new AIOS projects. Verifies and installs all required CLIs, authenticates services, initializes Git/GitHub repository, and validates the development environment before starting the greenfield workflow."
 agent: "aios-master"
 ---
-
 Execute a skill **environment-bootstrap** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

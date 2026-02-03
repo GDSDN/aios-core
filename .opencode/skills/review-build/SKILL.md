@@ -1,7 +1,6 @@
 ---
-description: "> **Phase:** QA Review"
+description: "Execute a structured 10-phase quality assurance review of a completed build. This comprehensive review validates implementation against spec, runs automated tests, performs browser/database verification, conducts code review, checks for regressions, and produces a detailed QA report with clear APPROVE/REJECT signal."
 ---
-
 # Review-build
 
 # QA Review Build: 10-Phase Quality Assurance Review

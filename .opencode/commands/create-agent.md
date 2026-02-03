@@ -2,7 +2,6 @@
 description: "To create a new agent definition file following Synkra AIOS standards using the template system with progressive disclosure elicitation."
 agent: "aios-master"
 ---
-
 Execute a skill **create-agent** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

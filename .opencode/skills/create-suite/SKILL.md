@@ -1,7 +1,6 @@
 ---
-description: "Skill to create suite."
+description: "--- tools: - github-cli"
 ---
-
 # Create-suite
 
 ---

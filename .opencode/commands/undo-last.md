@@ -1,8 +1,7 @@
 ---
-description: "**Task ID:** undo-last"
+description: "---"
 agent: "aios-master"
 ---
-
 Execute a skill **undo-last** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

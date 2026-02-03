@@ -1,8 +1,7 @@
 ---
-description: "Ativar agente @data-engineer (Database Architect & Operations Engineer)"
+description: "Ative o agente @data-engineer para processar sua solicitação: $ARGUMENTS"
 agent: "data-engineer"
 ---
-
 Ative o agente @data-engineer para processar sua solicitação: $ARGUMENTS
 
 Instruções:

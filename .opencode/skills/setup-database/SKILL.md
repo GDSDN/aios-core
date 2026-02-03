@@ -1,7 +1,6 @@
 ---
 description: "**Purpose**: Interactive database project setup (Supabase, PostgreSQL, MongoDB, MySQL, SQLite)"
 ---
-
 # Setup-database
 
 # Task: Setup Database

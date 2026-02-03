@@ -1,8 +1,7 @@
 ---
-description: "Execute story development with selectable automation modes to accommodate different developer prefer..."
+description: "Execute story development with selectable automation modes to accommodate different developer preferences, skill levels, and story complexity."
 agent: "dev"
 ---
-
 Execute a skill **develop-story** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

@@ -1,7 +1,6 @@
 ---
-description: "id: ci-cd-configuration"
+description: "To set up a complete, production-ready CI/CD pipeline for a repository, including linting, testing, building, code review (CodeRabbit Free), and deployment automation."
 ---
-
 # Ci-cd-configuration
 
 ---

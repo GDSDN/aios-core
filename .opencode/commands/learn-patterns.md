@@ -2,7 +2,6 @@
 description: "Learn patterns from successful modifications to improve future meta-agent suggestions and automation."
 agent: "aios-master"
 ---
-
 Execute a skill **learn-patterns** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

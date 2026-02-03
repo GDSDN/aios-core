@@ -1,8 +1,7 @@
 ---
-description: "View, manage, and review learned workflow patterns captured by the Workflow Intelligence System (WIS..."
+description: "View, manage, and review learned workflow patterns captured by the Workflow Intelligence System (WIS). Patterns are learned from successful workflow executions and boost suggestion confidence."
 agent: "aios-master"
 ---
-
 Execute a skill **patterns** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

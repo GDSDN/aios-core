@@ -1,7 +1,6 @@
 ---
-description: "Analyze an existing project to understand its structure, tech stack, coding standards, and CI/CD workflows before AIOS integration. This task provi..."
+description: "Analyze an existing project to understand its structure, tech stack, coding standards, and CI/CD workflows before AIOS integration. This task provides recommendations for safe integration and identifies potential conflicts."
 ---
-
 # Analyze-brownfield
 
 ---

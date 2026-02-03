@@ -2,7 +2,6 @@
 description: "To safely update team manifest files with new agent entries while maintaining YAML integrity and preventing corruption."
 agent: "aios-master"
 ---
-
 Execute a skill **update-manifest** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

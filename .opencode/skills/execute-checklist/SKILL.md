@@ -1,7 +1,6 @@
 ---
-description: "Skill to execute checklist."
+description: "---"
 ---
-
 # Execute-checklist
 
 ---

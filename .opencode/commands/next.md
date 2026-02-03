@@ -1,8 +1,7 @@
 ---
-description: "Suggest next commands based on current workflow context using the Workflow Intelligence System (WIS)..."
+description: "Suggest next commands based on current workflow context using the Workflow Intelligence System (WIS). Helps users navigate workflows efficiently without memorizing command sequences."
 agent: "aios-master"
 ---
-
 Execute a skill **next** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

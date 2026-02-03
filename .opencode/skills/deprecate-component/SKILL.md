@@ -1,7 +1,6 @@
 ---
 description: "Mark framework components as deprecated with timeline management and migration path generation."
 ---
-
 # Deprecate-component
 
 ---

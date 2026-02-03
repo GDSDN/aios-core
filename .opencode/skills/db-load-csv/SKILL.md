@@ -1,7 +1,6 @@
 ---
 description: "**Purpose**: Import CSV data using PostgreSQL COPY with staging table and validation"
 ---
-
 # Db-load-csv
 
 # Task: Load CSV Data Safely

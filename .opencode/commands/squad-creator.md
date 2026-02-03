@@ -1,8 +1,7 @@
 ---
-description: "Ativar agente @squad-creator (Squad Creator)"
+description: "Ative o agente @squad-creator para processar sua solicitação: $ARGUMENTS"
 agent: "squad-creator"
 ---
-
 Ative o agente @squad-creator para processar sua solicitação: $ARGUMENTS
 
 Instruções:

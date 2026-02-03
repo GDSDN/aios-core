@@ -1,7 +1,6 @@
 ---
-description: "> **Command:** `*build {story-id}`"
+description: "Execute a complete autonomous build for a story with a single command."
 ---
-
 # Build
 
 # Task: Build (Autonomous)

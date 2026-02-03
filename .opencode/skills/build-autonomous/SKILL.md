@@ -1,7 +1,6 @@
 ---
-description: "> **Command:** `*build-autonomous {story-id}`"
+description: "Start an autonomous build loop for a story, executing subtasks with automatic retries and self-critique."
 ---
-
 # Build-autonomous
 
 # Task: Build Autonomous

@@ -1,7 +1,6 @@
 ---
-description: "**Purpose:** Analyze an existing AIOS project to understand its structure, services, patterns, and p..."
+description: "**Purpose:** Analyze an existing AIOS project to understand its structure, services, patterns, and provide recommendations for implementing new features. This is Phase 1 of the Incremental Feature Workflow."
 ---
-
 # Analyze-project-structure
 
 # Analyze Project Structure

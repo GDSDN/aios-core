@@ -1,7 +1,6 @@
 ---
 description: "**Purpose**: Restore database to previous snapshot or run rollback script"
 ---
-
 # Db-rollback
 
 # Task: Rollback Database

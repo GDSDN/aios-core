@@ -1,8 +1,7 @@
 ---
-description: "**Task ID:** setup-mcp-docker"
+description: "Configure Docker MCP Toolkit as the primary MCP infrastructure for AIOS, using **HTTP transport** instead of stdio to avoid timeout issues during gateway initialization."
 agent: "aios-master"
 ---
-
 Execute a skill **setup-mcp-docker** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

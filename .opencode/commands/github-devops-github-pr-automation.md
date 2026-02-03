@@ -2,7 +2,6 @@
 description: "**Task**: GitHub Pull Request Automation (Repository-Agnostic)"
 agent: "aios-master"
 ---
-
 Execute a skill **github-devops-github-pr-automation** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

@@ -1,7 +1,6 @@
 ---
 description: "**Purpose**: Run detailed query plan analysis to assess performance"
 ---
-
 # Db-explain
 
 # Task: EXPLAIN (ANALYZE, BUFFERS)

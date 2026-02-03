@@ -1,8 +1,7 @@
 ---
-description: "Ativar agente @ux-design-expert (UX/UI Designer & Design System Architect)"
+description: "Ative o agente @ux-design-expert para processar sua solicitação: $ARGUMENTS"
 agent: "ux-design-expert"
 ---
-
 Ative o agente @ux-design-expert para processar sua solicitação: $ARGUMENTS
 
 Instruções:

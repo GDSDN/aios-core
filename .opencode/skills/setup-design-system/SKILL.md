@@ -1,7 +1,6 @@
 ---
-description: "> Task ID: atlas-setup-design-system"
+description: "> Task ID: atlas-setup-design-system > Agent: Atlas (Design System Builder) > Version: 1.0.0"
 ---
-
 # Setup-design-system
 
 # Setup Design System Structure

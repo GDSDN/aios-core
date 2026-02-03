@@ -1,7 +1,6 @@
 ---
 description: "**Purpose**: Create standard Supabase project structure"
 ---
-
 # Db-bootstrap
 
 # Task: Bootstrap Supabase Project

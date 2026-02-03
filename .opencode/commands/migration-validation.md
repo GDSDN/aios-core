@@ -2,7 +2,6 @@
 description: "Validate database migrations are properly created and applied for schema changes."
 agent: "qa"
 ---
-
 Execute a skill **migration-validation** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

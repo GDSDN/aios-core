@@ -1,8 +1,7 @@
 ---
-description: "**Task ID:** list-worktrees"
+description: "**Task ID:** list-worktrees **Version:** 1.0 **Created:** 2026-01-28 (Story 1.3) **Agent:** @devops (Gage)"
 agent: "aios-master"
 ---
-
 Execute a skill **list-worktrees** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

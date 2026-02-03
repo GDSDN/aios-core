@@ -1,8 +1,7 @@
 ---
-description: "Ativar agente @architect (Architect)"
+description: "Ative o agente @architect para processar sua solicitação: $ARGUMENTS"
 agent: "architect"
 ---
-
 Ative o agente @architect para processar sua solicitação: $ARGUMENTS
 
 Instruções:

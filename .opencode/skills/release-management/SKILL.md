@@ -1,7 +1,6 @@
 ---
-description: "id: release-management"
+description: "To automate the complete software release process, including:"
 ---
-
 # Release-management
 
 ---

@@ -1,7 +1,6 @@
 ---
 description: "**Purpose**: Set session claims to emulate authenticated user for RLS testing"
 ---
-
 # Db-impersonate
 
 # Task: Impersonate User (RLS Testing)

@@ -1,8 +1,7 @@
 ---
-description: "Systematically audit all utilities in .aios-core/scripts/ to determine their functional status, classify them as WORKING/FIXABLE/DEPRECATED, and ge..."
+description: "Systematically audit all utilities in `.aios-core/scripts/` to determine their functional status, classify them as WORKING/FIXABLE/DEPRECATED, and generate actionable recommendations for maintenance and cleanup."
 agent: "aios-master"
 ---
-
 Execute a skill **audit-utilities** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

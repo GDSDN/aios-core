@@ -1,7 +1,6 @@
 ---
 description: "**Purpose**: Interactive session to model business domain into database schema"
 ---
-
 # Db-domain-modeling
 
 # Task: Domain Modeling Session

@@ -1,7 +1,6 @@
 ---
 description: "> Create Code Mode workflows that execute in Docker MCP sandbox for ~98.7% token savings."
 ---
-
 # Mcp-workflow
 
 # MCP Workflow Creation Task

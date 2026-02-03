@@ -1,7 +1,6 @@
 ---
-description: "Extract and consolidate gotchas from session insights into a searchable knowledge base. Triggered au..."
+description: "Extract and consolidate gotchas from session insights into a searchable knowledge base. Triggered automatically after session-insights capture or manually via `*list-gotchas`."
 ---
-
 # Document-gotchas
 
 # Document Gotchas Task

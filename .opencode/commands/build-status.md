@@ -1,8 +1,7 @@
 ---
-description: "> **Command:** `*build-status {story-id}` or `*build-status --all`"
+description: "Display current status of autonomous builds including progress, metrics, and health indicators."
 agent: "aios-master"
 ---
-
 Execute a skill **build-status** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

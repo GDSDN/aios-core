@@ -1,7 +1,6 @@
 ---
 description: "Automated browser console error detection for frontend changes."
 ---
-
 # Browser-console-check
 
 # Browser Console Check Task

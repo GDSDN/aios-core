@@ -2,7 +2,6 @@
 description: "Enforce evidence-based QA with mandatory proof of fix and verification."
 agent: "qa"
 ---
-
 Execute a skill **evidence-requirements** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

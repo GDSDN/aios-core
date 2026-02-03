@@ -2,7 +2,6 @@
 description: "**Purpose**: Set session claims to emulate authenticated user for RLS testing"
 agent: "aios-master"
 ---
-
 Execute a skill **db-impersonate** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

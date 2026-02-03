@@ -1,8 +1,7 @@
 ---
-description: "task: analyzeSquad()"
+description: "Analyze an existing squad's structure, components, and coverage to provide insights and improvement suggestions. This task enables developers to understand what a squad contains and identify opportunities for enhancement."
 agent: "aios-master"
 ---
-
 Execute a skill **squad-creator-analyze** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

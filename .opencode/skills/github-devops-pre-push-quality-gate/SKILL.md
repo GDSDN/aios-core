@@ -1,7 +1,6 @@
 ---
 description: "**Task**: Pre-Push Quality Gate Validation (Repository-Agnostic)"
 ---
-
 # Github-devops-pre-push-quality-gate
 
 # pre-push-quality-gate.md

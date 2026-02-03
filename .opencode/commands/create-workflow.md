@@ -2,7 +2,6 @@
 description: "To create a new workflow definition that orchestrates multiple agents and tasks for complex multi-step processes in Synkra AIOS."
 agent: "aios-master"
 ---
-
 Execute a skill **create-workflow** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

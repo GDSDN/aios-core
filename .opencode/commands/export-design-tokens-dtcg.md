@@ -1,8 +1,7 @@
 ---
-description: "> Task ID: brad-export-design-tokens-dtcg"
+description: "> Task ID: brad-export-design-tokens-dtcg > Agent: Brad (Design System Architect) > Version: 1.0.0"
 agent: "aios-master"
 ---
-
 Execute a skill **export-design-tokens-dtcg** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

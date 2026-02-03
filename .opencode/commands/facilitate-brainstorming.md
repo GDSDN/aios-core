@@ -1,8 +1,7 @@
 ---
-description: "docOutputLocation: docs/brainstorming-session-results.md"
+description: "---"
 agent: "analyst"
 ---
-
 Execute a skill **facilitate-brainstorming** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

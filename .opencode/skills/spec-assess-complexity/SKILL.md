@@ -1,7 +1,6 @@
 ---
-description: "> **Phase:** 2 - Assess"
+description: "Avaliar a complexidade de uma story/requisito para determinar quais fases do pipeline são necessárias. Classifica em SIMPLE, STANDARD ou COMPLEX, cada um ativando diferentes conjuntos de fases."
 ---
-
 # Spec-assess-complexity
 
 # Spec Pipeline: Assess Complexity

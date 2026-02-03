@@ -1,8 +1,7 @@
 ---
-description: "**Purpose**: Comprehensive database security and quality audit (RLS coverage, schema design, full sy..."
+description: "**Purpose**: Comprehensive database security and quality audit (RLS coverage, schema design, full system)"
 agent: "aios-master"
 ---
-
 Execute a skill **security-audit** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

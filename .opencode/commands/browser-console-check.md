@@ -2,7 +2,6 @@
 description: "Automated browser console error detection for frontend changes."
 agent: "qa"
 ---
-
 Execute a skill **browser-console-check** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

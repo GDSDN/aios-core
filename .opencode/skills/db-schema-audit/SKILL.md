@@ -1,7 +1,6 @@
 ---
 description: "**Purpose**: Comprehensive audit of database schema quality and best practices"
 ---
-
 # Db-schema-audit
 
 # Task: Schema Audit

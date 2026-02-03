@@ -2,7 +2,6 @@
 description: "Mark framework components as deprecated with timeline management and migration path generation."
 agent: "aios-master"
 ---
-
 Execute a skill **deprecate-component** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

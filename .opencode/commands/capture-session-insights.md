@@ -1,8 +1,7 @@
 ---
-description: "**Purpose:** Capture insights from development sessions to enable persistent learning between sessio..."
+description: "**Purpose:** Capture insights from development sessions to enable persistent learning between sessions. Part of Epic 7 - Memory Layer."
 agent: "aios-master"
 ---
-
 Execute a skill **capture-session-insights** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

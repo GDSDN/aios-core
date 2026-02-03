@@ -1,7 +1,6 @@
 ---
-description: 'Compare upstream commits with the OpenCode fork and generate an adaptation story when needed.'
+description: "Compare upstream changes against the current OpenCode fork, classify relevance, and generate an adaptation story only for changes that are systemic and safe to port."
 ---
-
 # Upstream Sync
 
 ## Purpose

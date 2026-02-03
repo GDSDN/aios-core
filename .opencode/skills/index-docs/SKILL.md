@@ -1,7 +1,6 @@
 ---
-description: "This task maintains the integrity and completeness of the docs/index.md file by scanning all documentation files and ensuring they are properly ind..."
+description: "This task maintains the integrity and completeness of the `docs/index.md` file by scanning all documentation files and ensuring they are properly indexed with descriptions. It handles both root-level documents and documents within subfolders, organizing them hierarchically."
 ---
-
 # Index-docs
 
 ---

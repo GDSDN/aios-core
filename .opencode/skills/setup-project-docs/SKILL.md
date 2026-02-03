@@ -1,7 +1,6 @@
 ---
-description: "Generate project-specific documentation and configuration using the Documentation Integrity System. This task creates the foundational docs that en..."
+description: "Generate project-specific documentation and configuration using the Documentation Integrity System. This task creates the foundational docs that enable AI agents to understand project structure, coding standards, and deployment configuration."
 ---
-
 # Setup-project-docs
 
 ---

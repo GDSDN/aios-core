@@ -2,7 +2,6 @@
 description: "**Purpose**: Install KISS or granular RLS policies on a table"
 agent: "aios-master"
 ---
-
 Execute a skill **db-policy-apply** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

@@ -1,8 +1,7 @@
 ---
-description: "Ativar agente @sm (Scrum Master)"
+description: "Ative o agente @sm para processar sua solicitação: $ARGUMENTS"
 agent: "sm"
 ---
-
 Ative o agente @sm para processar sua solicitação: $ARGUMENTS
 
 Instruções:

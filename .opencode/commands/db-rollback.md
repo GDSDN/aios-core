@@ -2,7 +2,6 @@
 description: "**Purpose**: Restore database to previous snapshot or run rollback script"
 agent: "aios-master"
 ---
-
 Execute a skill **db-rollback** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

@@ -1,7 +1,6 @@
 ---
-description: "Skill to create doc."
+description: "---"
 ---
-
 # Create-doc
 
 ---

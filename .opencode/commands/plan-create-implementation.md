@@ -1,8 +1,7 @@
 ---
-description: "> **Phase:** 1 - Plan"
+description: "Gerar planos de implementacao executaveis a partir de specs aprovados. Transforma o spec.md em uma sequencia de subtasks atomicas, cada uma com verificacao, formando um roadmap deterministico para o coder."
 agent: "aios-master"
 ---
-
 Execute a skill **plan-create-implementation** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

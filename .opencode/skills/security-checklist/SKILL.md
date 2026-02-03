@@ -1,7 +1,6 @@
 ---
 description: "Automated security vulnerability scanning for common security anti-patterns."
 ---
-
 # Security-checklist
 
 # Security Checklist Task

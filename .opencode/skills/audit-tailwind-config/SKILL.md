@@ -1,7 +1,6 @@
 ---
-description: "> Task ID: brad-audit-tailwind-config"
+description: "> Task ID: brad-audit-tailwind-config > Agent: Brad (Design System Architect) > Version: 1.0.0"
 ---
-
 # Audit-tailwind-config
 
 # Audit Tailwind v4 Configuration & Utility Health

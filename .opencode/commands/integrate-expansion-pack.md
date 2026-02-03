@@ -1,8 +1,7 @@
 ---
-description: "> Task ID: atlas-integrate-Squad"
+description: "> Task ID: atlas-integrate-Squad > Agent: Atlas (Design System Builder) > Version: 1.0.0"
 agent: "aios-master"
 ---
-
 Execute a skill **integrate-expansion-pack** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

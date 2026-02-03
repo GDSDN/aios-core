@@ -1,7 +1,6 @@
 ---
-description: "Execute story development with selectable automation modes to accommodate different developer prefer..."
+description: "Execute story development with selectable automation modes to accommodate different developer preferences, skill levels, and story complexity."
 ---
-
 # Develop-story
 
 # Develop Story Task

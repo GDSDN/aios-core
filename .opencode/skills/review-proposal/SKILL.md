@@ -1,7 +1,6 @@
 ---
 description: "Review and provide feedback on modification proposals submitted through the collaborative modification system."
 ---
-
 # Review-proposal
 
 ---

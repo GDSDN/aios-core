@@ -1,7 +1,6 @@
 ---
 description: "**Purpose**: Run post-migration validation checks"
 ---
-
 # Db-smoke-test
 
 # Task: DB Smoke Test

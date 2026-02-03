@@ -2,7 +2,6 @@
 description: "> Search and discover available MCP servers in the Docker MCP Toolkit catalog."
 agent: "aios-master"
 ---
-
 Execute a skill **search-mcp** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

@@ -1,8 +1,7 @@
 ---
-description: "Skill to sync story to clickup."
+description: "--- tools: - clickup # Required for ClickUp synchronization checklists: - po-master-checklist.md ---"
 agent: "po"
 ---
-
 Execute a skill **sync-story-to-clickup** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

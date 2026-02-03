@@ -1,7 +1,6 @@
 ---
-description: "> **Task ID:** ux-user-research"
+description: "> **Task ID:** ux-user-research > **Agent:** UX-Design Expert > **Phase:** 1 - UX Research > **Interactive:** Yes (elicit=true)"
 ---
-
 # Ux-user-research
 
 # User Research & Needs Analysis

@@ -1,7 +1,6 @@
 ---
-description: "Skill to review story."
+description: "--- tools: - github-cli # Code review and PR management - browser # End-to-end testing and UI validation - context7 # Research testing frameworks and best practices - supabase # Database testing and data validation checklists: - qa-master-checklist.md ---"
 ---
-
 # Review-story
 
 ---

@@ -1,7 +1,6 @@
 ---
 description: "**Purpose**: Interactive guide to set up Supabase project with best practices"
 ---
-
 # Db-supabase-setup
 
 # Task: Supabase Setup Guide

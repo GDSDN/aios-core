@@ -2,7 +2,6 @@
 description: "**Purpose**: Import CSV data using PostgreSQL COPY with staging table and validation"
 agent: "aios-master"
 ---
-
 Execute a skill **db-load-csv** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

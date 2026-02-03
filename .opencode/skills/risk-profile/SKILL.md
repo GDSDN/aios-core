@@ -1,7 +1,6 @@
 ---
 description: "Identify, assess, and prioritize risks in the story implementation. Provide risk mitigation strategies and testing focus areas based on risk levels."
 ---
-
 # Risk-profile
 
 <!--

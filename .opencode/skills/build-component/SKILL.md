@@ -1,7 +1,6 @@
 ---
-description: "> Task ID: atlas-build-component"
+description: "> Task ID: atlas-build-component > Agent: Atlas (Design System Builder) > Version: 1.0.0"
 ---
-
 # Build-component
 
 # Build Production-Ready Component

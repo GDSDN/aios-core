@@ -1,7 +1,6 @@
 ---
-description: "> Task ID: atlas-bootstrap-shadcn"
+description: "> Task ID: atlas-bootstrap-shadcn > Agent: Atlas (Design System Builder) > Version: 1.0.0"
 ---
-
 # Bootstrap-shadcn-library
 
 # Bootstrap Shadcn/Radix Component Library

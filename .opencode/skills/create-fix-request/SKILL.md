@@ -1,7 +1,6 @@
 ---
-description: "Generate a structured fix request document (`QA_FIX_REQUEST.md`) for @dev based on QA review finding..."
+description: "Generate a structured fix request document (`QA_FIX_REQUEST.md`) for @dev based on QA review findings."
 ---
-
 # Create-fix-request
 
 # Create Fix Request Task

@@ -1,8 +1,7 @@
 ---
-description: "**Agent:** @po"
+description: "**Agent:** @po **Command:** `*stories-index` **Purpose:** Regenerate story index from docs/stories/ directory **Created:** 2025-01-16 (Story 6.1.2.6)"
 agent: "po"
 ---
-
 Execute a skill **stories-index** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

@@ -1,8 +1,7 @@
 ---
-description: "name: run-tests"
+description: "--- name: run-tests agent: qa requires: - jest - coderabbit ---"
 agent: "qa"
 ---
-
 Execute a skill **run-tests** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

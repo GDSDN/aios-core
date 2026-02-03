@@ -1,8 +1,7 @@
 ---
-description: "> **Phase:** 3 - Research"
+description: "Pesquisar e validar dependências externas necessárias para implementação. Usa Context7 para documentação de bibliotecas e EXA para pesquisa web. Produz lista de dependências verificadas com links e exemplos."
 agent: "aios-master"
 ---
-
 Execute a skill **spec-research-dependencies** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

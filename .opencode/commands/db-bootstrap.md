@@ -2,7 +2,6 @@
 description: "**Purpose**: Create standard Supabase project structure"
 agent: "aios-master"
 ---
-
 Execute a skill **db-bootstrap** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

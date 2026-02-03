@@ -1,8 +1,7 @@
 ---
-description: "**Task ID:** remove-worktree"
+description: "**Task ID:** remove-worktree **Version:** 1.0 **Created:** 2026-01-28 (Story 1.3) **Agent:** @devops (Gage)"
 agent: "aios-master"
 ---
-
 Execute a skill **remove-worktree** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

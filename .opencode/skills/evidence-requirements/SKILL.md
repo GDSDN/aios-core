@@ -1,7 +1,6 @@
 ---
 description: "Enforce evidence-based QA with mandatory proof of fix and verification."
 ---
-
 # Evidence-requirements
 
 # Evidence Requirements Task

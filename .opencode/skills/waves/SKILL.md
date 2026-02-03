@@ -1,7 +1,6 @@
 ---
-description: "<!-- Story: WIS-4 - Wave Analysis Engine -->"
+description: "<!-- Story: WIS-4 - Wave Analysis Engine --> <!-- Version: 1.0.0 --> <!-- Created: 2025-12-25 -->"
 ---
-
 # Waves
 
 # Task: `*waves` - Wave Analysis

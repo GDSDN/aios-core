@@ -1,7 +1,6 @@
 ---
 description: "**Purpose**: Validate environment for DB operations without leaking secrets"
 ---
-
 # Db-env-check
 
 # Task: DB Env Check

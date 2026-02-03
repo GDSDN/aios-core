@@ -2,7 +2,6 @@
 description: "**Purpose**: Execute SQL file or inline SQL with transaction safety and timing"
 agent: "aios-master"
 ---
-
 Execute a skill **db-run-sql** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

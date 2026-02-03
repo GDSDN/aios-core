@@ -1,7 +1,6 @@
 ---
-description: "> Task ID: brad-extract-tokens"
+description: "> Task ID: brad-extract-tokens > Agent: Brad (Design System Architect) > Version: 1.0.0"
 ---
-
 # Extract-tokens
 
 # Extract Design Tokens from Consolidated Patterns

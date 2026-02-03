@@ -1,7 +1,6 @@
 ---
 description: "Create and manage collaborative editing sessions for real-time component modification with multiple participants."
 ---
-
 # Collaborative-edit
 
 ---

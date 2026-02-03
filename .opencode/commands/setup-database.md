@@ -2,7 +2,6 @@
 description: "**Purpose**: Interactive database project setup (Supabase, PostgreSQL, MongoDB, MySQL, SQLite)"
 agent: "aios-master"
 ---
-
 Execute a skill **setup-database** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

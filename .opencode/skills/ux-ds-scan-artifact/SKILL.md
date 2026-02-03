@@ -1,7 +1,6 @@
 ---
-description: "> **Task ID:** ux-ds-scan-artifact"
+description: "> **Task ID:** ux-ds-scan-artifact > **Agent:** UX-Design Expert > **Phase:** Universal (works with any phase) > **Interactive:** Yes (elicit=true)"
 ---
-
 # Ux-ds-scan-artifact
 
 # Design System Artifact Scanner

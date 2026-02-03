@@ -2,7 +2,6 @@
 description: "Analyze code for performance bottlenecks and suggest optimizations to improve runtime performance, memory usage, and scalability."
 agent: "dev"
 ---
-
 Execute a skill **optimize-performance** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

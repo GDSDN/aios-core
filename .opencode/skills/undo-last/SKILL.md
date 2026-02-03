@@ -1,7 +1,6 @@
 ---
-description: "**Task ID:** undo-last"
+description: "---"
 ---
-
 # Undo-last
 
 ---

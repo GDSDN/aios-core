@@ -1,7 +1,6 @@
 ---
-description: "> **Phase:** Execution - Subtask"
+description: "Execute a single subtask from an implementation.yaml plan following the 13-step Coder Agent workflow. Includes mandatory self-critique phases (5.5 and 6.5) to catch bugs, edge cases, and pattern violations before committing. No steps can be skipped."
 ---
-
 # Plan-execute-subtask
 
 # Execute Subtask (Coder Agent)

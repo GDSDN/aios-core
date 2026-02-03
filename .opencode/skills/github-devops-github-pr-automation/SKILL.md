@@ -1,7 +1,6 @@
 ---
 description: "**Task**: GitHub Pull Request Automation (Repository-Agnostic)"
 ---
-
 # Github-devops-github-pr-automation
 
 # github-pr-automation.md

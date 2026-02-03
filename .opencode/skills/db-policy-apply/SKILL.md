@@ -1,7 +1,6 @@
 ---
 description: "**Purpose**: Install KISS or granular RLS policies on a table"
 ---
-
 # Db-policy-apply
 
 # Task: Apply RLS Policy Template

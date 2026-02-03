@@ -2,7 +2,6 @@
 description: "**Purpose**: Run detailed query plan analysis to assess performance"
 agent: "aios-master"
 ---
-
 Execute a skill **db-explain** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

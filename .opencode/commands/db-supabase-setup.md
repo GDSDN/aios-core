@@ -2,7 +2,6 @@
 description: "**Purpose**: Interactive guide to set up Supabase project with best practices"
 agent: "aios-master"
 ---
-
 Execute a skill **db-supabase-setup** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

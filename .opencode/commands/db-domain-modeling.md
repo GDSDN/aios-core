@@ -2,7 +2,6 @@
 description: "**Purpose**: Interactive session to model business domain into database schema"
 agent: "aios-master"
 ---
-
 Execute a skill **db-domain-modeling** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

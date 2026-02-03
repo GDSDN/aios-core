@@ -2,7 +2,6 @@
 description: "Critical thinking checklist to prevent confirmation bias and false positive approvals."
 agent: "qa"
 ---
-
 Execute a skill **false-positive-detection** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

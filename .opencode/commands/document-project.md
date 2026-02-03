@@ -1,8 +1,7 @@
 ---
-description: "Generate comprehensive documentation for existing projects optimized for AI development agents. This task creates structured reference materials th..."
+description: "Generate comprehensive documentation for existing projects optimized for AI development agents. This task creates structured reference materials that enable AI agents to understand project context, conventions, and patterns for effective contribution to any codebase."
 agent: "aios-master"
 ---
-
 Execute a skill **document-project** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

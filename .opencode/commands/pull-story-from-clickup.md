@@ -1,8 +1,7 @@
 ---
-description: "Skill to pull story from clickup."
+description: "--- tools: - clickup # Required for ClickUp integration checklists: - po-master-checklist.md ---"
 agent: "po"
 ---
-
 Execute a skill **pull-story-from-clickup** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

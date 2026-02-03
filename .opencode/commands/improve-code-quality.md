@@ -2,7 +2,6 @@
 description: "Automatically improve code quality across multiple dimensions including formatting, linting, modern syntax, and best practices."
 agent: "dev"
 ---
-
 Execute a skill **improve-code-quality** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

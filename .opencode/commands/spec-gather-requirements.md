@@ -1,8 +1,7 @@
 ---
-description: "> **Phase:** 1 - Gather"
+description: "Coletar e estruturar requisitos do usuário através de elicitation interativo. Transforma descrições informais em requisitos formais e categorizados."
 agent: "aios-master"
 ---
-
 Execute a skill **spec-gather-requirements** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

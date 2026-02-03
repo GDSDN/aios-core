@@ -1,7 +1,6 @@
 ---
-description: "Create a new service using standardized Handlebars templates from WIS-10. Generates consistent TypeS..."
+description: "Create a new service using standardized Handlebars templates from WIS-10. Generates consistent TypeScript service structures with proper configuration, testing, and documentation."
 ---
-
 # Create-service
 
 # Create Service

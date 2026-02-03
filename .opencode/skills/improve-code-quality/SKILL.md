@@ -1,7 +1,6 @@
 ---
 description: "Automatically improve code quality across multiple dimensions including formatting, linting, modern syntax, and best practices."
 ---
-
 # Improve-code-quality
 
 ---

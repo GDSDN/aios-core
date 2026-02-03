@@ -1,8 +1,7 @@
 ---
-description: "Generate project-specific documentation and configuration using the Documentation Integrity System. This task creates the foundational docs that en..."
+description: "Generate project-specific documentation and configuration using the Documentation Integrity System. This task creates the foundational docs that enable AI agents to understand project structure, coding standards, and deployment configuration."
 agent: "aios-master"
 ---
-
 Execute a skill **setup-project-docs** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

@@ -1,7 +1,6 @@
 ---
-description: "> Task ID: brad-audit-codebase"
+description: "> Task ID: brad-audit-codebase > Agent: Brad (Design System Architect) > Version: 1.0.0"
 ---
-
 # Audit-codebase
 
 # Audit Codebase for UI Pattern Redundancy

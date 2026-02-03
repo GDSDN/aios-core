@@ -1,8 +1,7 @@
 ---
-description: "**Task ID:** setup-llm-routing"
+description: "Configure LLM routing for Claude Code to use alternative providers (DeepSeek, OpenRouter) instead of or alongside direct Anthropic API. This enables cost reduction of up to 100x while maintaining full Claude Code functionality including tool calling."
 agent: "aios-master"
 ---
-
 Execute a skill **setup-llm-routing** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

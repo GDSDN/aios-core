@@ -2,7 +2,6 @@
 description: "Automatically generate comprehensive test suites for framework components using AI analysis and template systems."
 agent: "qa"
 ---
-
 Execute a skill **generate-tests** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

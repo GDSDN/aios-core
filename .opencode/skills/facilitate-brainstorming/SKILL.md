@@ -1,7 +1,6 @@
 ---
-description: "docOutputLocation: docs/brainstorming-session-results.md"
+description: "---"
 ---
-
 # Facilitate-brainstorming
 
 ---

@@ -2,7 +2,6 @@
 description: "Identify, assess, and prioritize risks in the story implementation. Provide risk mitigation strategies and testing focus areas based on risk levels."
 agent: "qa"
 ---
-
 Execute a skill **risk-profile** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

@@ -1,7 +1,6 @@
 ---
-description: "> **Phase:** execution-context"
+description: "Gera os arquivos de contexto necessários para a fase de planejamento/implementação de uma story. Extrai informações do projeto (stack, convenções, padrões) e identifica arquivos relevantes para o escopo do story."
 ---
-
 # Plan-create-context
 
 # Plan Pipeline: Create Context

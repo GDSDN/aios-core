@@ -1,8 +1,7 @@
 ---
-description: "Ativar agente @aios-master (AIOS Master Orchestrator & Framework Developer)"
+description: "Ative o agente @aios-master para processar sua solicitação: $ARGUMENTS"
 agent: "aios-master"
 ---
-
 Ative o agente @aios-master para processar sua solicitação: $ARGUMENTS
 
 Instruções:

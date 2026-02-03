@@ -1,7 +1,6 @@
 ---
-description: "Skill to sync story to clickup."
+description: "--- tools: - clickup # Required for ClickUp synchronization checklists: - po-master-checklist.md ---"
 ---
-
 # Sync-story-to-clickup
 
 ---

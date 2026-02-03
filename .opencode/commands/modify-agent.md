@@ -1,8 +1,7 @@
 ---
-description: "To safely modify existing agent definitions while preserving their structure, maintaining compatibility, and providing rollback capabilities. This ..."
+description: "To safely modify existing agent definitions while preserving their structure, maintaining compatibility, and providing rollback capabilities. This task enables the meta-agent to evolve agent capabilities through targeted modifications with comprehensive validation."
 agent: "aios-master"
 ---
-
 Execute a skill **modify-agent** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

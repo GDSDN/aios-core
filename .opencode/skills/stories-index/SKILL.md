@@ -1,7 +1,6 @@
 ---
-description: "**Agent:** @po"
+description: "**Agent:** @po **Command:** `*stories-index` **Purpose:** Regenerate story index from docs/stories/ directory **Created:** 2025-01-16 (Story 6.1.2.6)"
 ---
-
 # Stories-index
 
 # PO Task: Regenerate Story Index

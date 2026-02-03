@@ -1,7 +1,6 @@
 ---
 description: "**Task**: Semantic Version Management (Repository-Agnostic)"
 ---
-
 # Github-devops-version-management
 
 # version-management.md

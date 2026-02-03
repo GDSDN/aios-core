@@ -1,8 +1,7 @@
 ---
-description: "> **Command:** `*gotchas [options]`"
+description: "List and search known gotchas (issues and workarounds) from the project's gotchas memory."
 agent: "aios-master"
 ---
-
 Execute a skill **gotchas** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:

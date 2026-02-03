@@ -2,7 +2,6 @@
 description: "Automated security vulnerability scanning for common security anti-patterns."
 agent: "qa"
 ---
-
 Execute a skill **security-checklist** com os seguintes argumentos: $ARGUMENTS
 
 Instruções:
