@@ -1,16 +1,18 @@
 ---
-description: "title: Orchestrate Pipeline"
+description: 'Orchestrate the full ADE pipeline for a story, managing quality gates and agent handoffs.'
 ---
 
 # Orchestrate
 
 ---
+
 title: Orchestrate Pipeline
 description: Start full ADE pipeline for a story
 agent: aios-master
 version: 1.0.0
 story: '0.9'
 epic: '0'
+
 ---
 
 # \*orchestrate Command
@@ -70,6 +72,6 @@ Starts the ADE Master Orchestrator pipeline for a given story.
 - 2: Pipeline blocked (gate failure)
 - 3: Invalid arguments
 
-
 ---
-*AIOS Skill - Synced from .aios-core/development/tasks/orchestrate.md*
+
+_AIOS Skill - Synced from .aios-core/development/tasks/orchestrate.md_

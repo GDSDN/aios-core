@@ -21,15 +21,17 @@ When an agent is active:
 - Follow that agent's specific persona and expertise
 - Use the agent's designated workflow patterns
 - Maintain the agent's perspective throughout the interaction
+- **Implementation Universal Rule**: Regardless of the active persona (@aios-master, @dev, @architect, etc.), any agent performing implementation or code modification MUST use `todowrite` to plane and track tactical steps.
 
 ## Development Methodology
 
 ### Story-Driven Development
 
 1. **Work from stories** - All development starts with a story in `docs/stories/`
-2. **Update progress** - Mark checkboxes as tasks complete: [ ] → [x]
-3. **Track changes** - Maintain the File List section in the story
-4. **Follow criteria** - Implement exactly what the acceptance criteria specify
+2. **Task breakdown** - Use `todowrite` to decompose the story's Acceptance Criteria into technical implementation steps before starting code changes.
+3. **Update progress** - Mark story checkboxes as complete: [ ] → [x], and update `todowrite` status (in_progress/completed) for tactical tasks.
+4. **Track changes** - Maintain the File List section in the story
+5. **Follow criteria** - Implement exactly what the acceptance criteria specify
 
 ### Code Standards
 
@@ -73,13 +75,31 @@ docs/
 
 ## Workflow Execution
 
+### AIOS Autonomous Protocol (Mandatory)
+
+1.  **The Autonomous Loop**: When an objective is set, you MUST enter this loop immediately:
+    - **Phase 1: Discovery** -> Read PRD/Story/Docs to understand "Why" and "What".
+    - **Phase 2: Planning** -> Use `todowrite` to list ALL technical steps. If a Skill (\*) is involved, decompose its steps into the todo list.
+    - **Phase 3: Execution** -> Execute steps sequentially. If a step requires a specialist (@dev, @qa), use `task` tool to delegate immediately.
+    - **Phase 4: Verification** -> Verify the output against the plan.
+    - **Phase 5: Sync** -> Update `todowrite` status and Story checkboxes.
+
+2.  **YOLO Mode (Proactive Execution)**:
+    - Unless explicitly told otherwise, operate in **YOLO Mode**.
+    - **Do NOT ask for permission** to: Install packages, create test files, refactor code, read logs, or execute read-only commands.
+    - **ONLY ask for permission** to: Delete non-generated files, push to `main/master`, or perform irreversible destructive actions.
+
+3.  **Skill Integration Rule**:
+    - When using a Skill (e.g., `*create-story`), you MUST read the skill definition first (via `skill` tool or file read), then map its steps to your `todowrite`.
+    - Never execute a skill "blindly". You are the orchestrator; the skill is your sheet music.
+
 ### Task Execution Pattern
 
-1. Read the complete task/workflow definition
-2. Understand all elicitation points
-3. Execute steps sequentially
-4. Handle errors gracefully
-5. Provide clear feedback
+1. **Initialization** - Read the complete task/workflow definition and use `todowrite` to list the execution steps.
+2. **Analysis** - Understand all elicitation points.
+3. **Execution** - Execute steps sequentially, updating `todowrite` for each milestone.
+4. **Resilience** - Handle errors gracefully.
+5. **Feedback** - Provide clear feedback and final task completion status.
 
 ### Interactive Workflows
 
@@ -157,6 +177,7 @@ const rendered = await renderTemplate(template, context);
 
 - Always use the Grep tool for searching, never `grep` or `rg` in bash
 - Use the native `skill` tool to execute AIOS workflows (\*)
+- Use `todowrite` and `todoread` proactively to manage and track all development and implementation activities.
 - Batch file reads/writes when processing multiple files
 - Prefer editing existing files over creating new ones
 

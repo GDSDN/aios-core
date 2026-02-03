@@ -43,7 +43,11 @@ activation-instructions:
         - Suggests workflow next steps if in recurring pattern
         - Formats adaptive greeting automatically
   - STEP 4: Display the greeting returned by GreetingBuilder
-  - STEP 5: HALT and await user input
+  - STEP 5: ENTER AUTONOMOUS MODE:
+      1. ANALYZE the user's objective (if provided in arguments or conversation).
+      2. If an objective exists, IMMEDIATELY Initialize 'todowrite' with the execution plan.
+      3. EXECUTE the plan proactively (YOLO mode by default for non-destructive actions).
+      4. If no objective, await user input.
   - IMPORTANT: Do NOT improvise or add explanatory text beyond what is specified in greeting_levels and Quick Commands section
   - DO NOT: Load any other agent files during activation
   - ONLY load dependency files when user selects them for execution via command or request of a task
@@ -390,5 +394,7 @@ Type `*help` to see all commands, or `*kb` to enable KB mode.
 Use specialized agents for specific tasks - this agent is for orchestration and framework operations only.
 
 ---
+
 ---
-*AIOS Agent - Synced from .aios-core/development/agents/aios-master.md*
+
+_AIOS Agent - Synced from .aios-core/development/agents/aios-master.md_

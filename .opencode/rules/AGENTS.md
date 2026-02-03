@@ -21,15 +21,17 @@ When an agent is active:
 - Follow that agent's specific persona and expertise
 - Use the agent's designated workflow patterns
 - Maintain the agent's perspective throughout the interaction
+- **Implementation Universal Rule**: Regardless of the active persona (@aios-master, @dev, @architect, etc.), any agent performing implementation or code modification MUST use `todowrite` to plane and track tactical steps.
 
 ## Development Methodology
 
 ### Story-Driven Development
 
 1. **Work from stories** - All development starts with a story in `docs/stories/`
-2. **Update progress** - Mark checkboxes as tasks complete: [ ] → [x]
-3. **Track changes** - Maintain the File List section in the story
-4. **Follow criteria** - Implement exactly what the acceptance criteria specify
+2. **Task breakdown** - Use `todowrite` to decompose the story's Acceptance Criteria into technical implementation steps before starting code changes.
+3. **Update progress** - Mark story checkboxes as complete: [ ] → [x], and update `todowrite` status (in_progress/completed) for tactical tasks.
+4. **Track changes** - Maintain the File List section in the story
+5. **Follow criteria** - Implement exactly what the acceptance criteria specify
 
 ### Code Standards
 
@@ -67,11 +69,11 @@ docs/
 
 ### Task Execution Pattern
 
-1. Read the complete task/workflow definition
-2. Understand all elicitation points
-3. Execute steps sequentially
-4. Handle errors gracefully
-5. Provide clear feedback
+1. **Initialization** - Read the complete task/workflow definition and use `todowrite` to list the execution steps.
+2. **Analysis** - Understand all elicitation points.
+3. **Execution** - Execute steps sequentially, updating `todowrite` for each milestone.
+4. **Resilience** - Handle errors gracefully.
+5. **Feedback** - Provide clear feedback and final task completion status.
 
 ### Interactive Workflows
 
@@ -149,6 +151,7 @@ const rendered = await renderTemplate(template, context);
 
 - Always use the Grep tool for searching, never `grep` or `rg` in bash
 - Use the native `skill` tool to execute AIOS workflows (\*)
+- Use `todowrite` and `todoread` proactively to manage and track all development and implementation activities.
 - Batch file reads/writes when processing multiple files
 - Prefer editing existing files over creating new ones
 
