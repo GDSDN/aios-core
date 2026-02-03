@@ -1,5 +1,5 @@
 ---
-description: "**Choose your execution mode:**"
+description: "Analyze code and suggest automated refactoring opportunities to improve code quality, maintainability, and performance."
 agent: "dev"
 ---
 

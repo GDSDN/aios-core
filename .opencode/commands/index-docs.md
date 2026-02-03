@@ -1,5 +1,5 @@
 ---
-description: "**Choose your execution mode:**"
+description: "This task maintains the integrity and completeness of the docs/index.md file by scanning all documentation files and ensuring they are properly ind..."
 agent: "aios-master"
 ---
 

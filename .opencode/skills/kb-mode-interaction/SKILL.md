@@ -1,5 +1,5 @@
 ---
-description: "<!--"
+description: "Provide a user-friendly interface to the AIOS knowledge base without overwhelming users with information upfront."
 ---
 
 # Kb-mode-interaction

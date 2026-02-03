@@ -1,5 +1,5 @@
 ---
-description: "**Choose your execution mode:**"
+description: "Create and submit modification proposals for collaborative review and approval within the Synkra AIOS framework."
 agent: "aios-master"
 ---
 

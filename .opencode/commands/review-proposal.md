@@ -1,5 +1,5 @@
 ---
-description: "**Choose your execution mode:**"
+description: "Review and provide feedback on modification proposals submitted through the collaborative modification system."
 agent: "qa"
 ---
 

@@ -1,5 +1,5 @@
 ---
-description: "<!--"
+description: "Design a complete test strategy that identifies what to test, at which level (unit/integration/e2e), and why. This ensures efficient test coverage ..."
 agent: "qa"
 ---
 

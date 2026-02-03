@@ -1,5 +1,5 @@
 ---
-description: "**Choose your execution mode:**"
+description: "Analyze the potential impact of proposed component modifications on the broader Synkra AIOS framework."
 ---
 
 # Analyze-impact

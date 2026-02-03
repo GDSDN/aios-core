@@ -1,5 +1,5 @@
 ---
-description: "tools:"
+description: "Skill to execute checklist."
 ---
 
 # Execute-checklist

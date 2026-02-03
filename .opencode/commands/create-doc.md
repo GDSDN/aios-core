@@ -1,5 +1,5 @@
 ---
-description: "tools:"
+description: "Skill to create doc."
 agent: "aios-master"
 ---
 

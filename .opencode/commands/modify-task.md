@@ -1,5 +1,5 @@
 ---
-description: "**Choose your execution mode:**"
+description: "To safely modify existing task definitions while maintaining their effectiveness, preserving elicitation flows, and ensuring backward compatibility..."
 agent: "aios-master"
 ---
 

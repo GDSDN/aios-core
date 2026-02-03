@@ -1,5 +1,5 @@
 ---
-description: "tools:"
+description: "Skill to pull story."
 agent: "po"
 ---
 

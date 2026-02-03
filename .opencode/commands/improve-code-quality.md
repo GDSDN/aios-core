@@ -1,5 +1,5 @@
 ---
-description: "**Choose your execution mode:**"
+description: "Automatically improve code quality across multiple dimensions including formatting, linting, modern syntax, and best practices."
 agent: "dev"
 ---
 

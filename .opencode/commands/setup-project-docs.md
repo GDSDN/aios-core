@@ -1,5 +1,5 @@
 ---
-description: "**Choose your execution mode:**"
+description: "Generate project-specific documentation and configuration using the Documentation Integrity System. This task creates the foundational docs that en..."
 agent: "aios-master"
 ---
 

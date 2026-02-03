@@ -1,5 +1,5 @@
 ---
-description: "**Choose your execution mode:**"
+description: "Generate comprehensive documentation for existing projects optimized for AI development agents. This task creates structured reference materials th..."
 agent: "aios-master"
 ---
 

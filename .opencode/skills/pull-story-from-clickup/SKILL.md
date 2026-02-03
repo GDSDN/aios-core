@@ -1,5 +1,5 @@
 ---
-description: "tools:"
+description: "Skill to pull story from clickup."
 ---
 
 # Pull-story-from-clickup

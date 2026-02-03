@@ -1,5 +1,5 @@
 ---
-description: "**Choose your execution mode:**"
+description: "- Guide a structured response to a change trigger using the .aios-core/product/checklists/change-checklist.md."
 agent: "aios-master"
 ---
 

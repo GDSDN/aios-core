@@ -1,5 +1,5 @@
 ---
-description: "**Choose your execution mode:**"
+description: "To comprehensively validate a story draft before implementation begins, ensuring it is complete, accurate, and provides sufficient context for succ..."
 agent: "aios-master"
 ---
 

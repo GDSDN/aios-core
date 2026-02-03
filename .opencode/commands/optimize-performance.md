@@ -1,5 +1,5 @@
 ---
-description: "**Choose your execution mode:**"
+description: "Analyze code for performance bottlenecks and suggest optimizations to improve runtime performance, memory usage, and scalability."
 agent: "dev"
 ---
 

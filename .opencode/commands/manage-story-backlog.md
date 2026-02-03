@@ -1,5 +1,5 @@
 ---
-description: "tools:"
+description: "The Story Backlog provides a centralized, structured way to:"
 agent: "po"
 ---
 

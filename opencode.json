@@ -21,46 +21,30 @@
   "mcp": {
     "my-custom-mcp": {
       "type": "local",
-      "command": [
-        "echo",
-        "hello"
-      ],
+      "command": ["echo", "hello"],
       "enabled": true
     },
     "playwright": {
       "type": "local",
-      "command": [
-        "npx",
-        "-y",
-        "@modelcontextprotocol/server-playwright"
-      ],
+      "command": ["npx", "-y", "@modelcontextprotocol/server-playwright"],
       "enabled": true
     },
     "context7": {
-      "type": "local",
-      "command": [
-        "npx",
-        "-y",
-        "@synkra/mcp-context7"
-      ],
+      "type": "remote",
+      "url": "https://mcp.context7.com/mcp",
+      "headers": {
+        "CONTEXT7_API_KEY": "${CONTEXT7_API_KEY}"
+      },
       "enabled": true
     },
     "exa": {
       "type": "local",
-      "command": [
-        "npx",
-        "-y",
-        "@modelcontextprotocol/server-exa"
-      ],
+      "command": ["npx", "-y", "@modelcontextprotocol/server-exa"],
       "enabled": true
     },
     "desktop-commander": {
       "type": "local",
-      "command": [
-        "npx",
-        "-y",
-        "@modelcontextprotocol/server-desktop-commander"
-      ],
+      "command": ["npx", "-y", "@modelcontextprotocol/server-desktop-commander"],
       "enabled": true
     }
   }

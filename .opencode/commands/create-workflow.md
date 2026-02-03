@@ -1,5 +1,5 @@
 ---
-description: "**Choose your execution mode:**"
+description: "To create a new workflow definition that orchestrates multiple agents and tasks for complex multi-step processes in Synkra AIOS."
 agent: "aios-master"
 ---
 

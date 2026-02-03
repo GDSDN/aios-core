@@ -1,5 +1,5 @@
 ---
-description: "**Choose your execution mode:**"
+description: "Generate well-structured research prompts that:"
 agent: "aios-master"
 ---
 

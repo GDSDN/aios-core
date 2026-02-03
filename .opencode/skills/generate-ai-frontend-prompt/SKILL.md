@@ -1,5 +1,5 @@
 ---
-description: "**Choose your execution mode:**"
+description: "To generate a masterful, comprehensive, and optimized prompt that can be used with any AI-driven frontend development tool (e.g., Vercel v0, Lovabl..."
 ---
 
 # Generate-ai-frontend-prompt

@@ -1,5 +1,5 @@
 ---
-description: "**Choose your execution mode:**"
+description: "Mark framework components as deprecated with timeline management and migration path generation."
 agent: "aios-master"
 ---
 

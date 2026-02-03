@@ -1,5 +1,5 @@
 ---
-description: "**Choose your execution mode:**"
+description: "Create a single user story for very small brownfield enhancements that can be completed in one focused development session. This task is for minima..."
 agent: "aios-master"
 ---
 

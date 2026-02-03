@@ -1,5 +1,5 @@
 ---
-description: "**Choose your execution mode:**"
+description: "Create detailed, implementation-ready stories for brownfield projects where traditional sharded PRD/architecture documents may not exist. This task..."
 ---
 
 # Create-brownfield-story

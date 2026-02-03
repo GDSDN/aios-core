@@ -1,5 +1,5 @@
 ---
-description: "tools:"
+description: "Create a single epic for smaller brownfield enhancements that don't require the full PRD and Architecture documentation process. This task is for i..."
 agent: "aios-master"
 ---
 

@@ -1,5 +1,5 @@
 ---
-description: "**Choose your execution mode:**"
+description: "- Provide optional reflective and brainstorming actions to enhance content quality"
 agent: "aios-master"
 ---
 

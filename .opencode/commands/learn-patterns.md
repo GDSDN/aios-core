@@ -1,5 +1,5 @@
 ---
-description: "**Choose your execution mode:**"
+description: "Learn patterns from successful modifications to improve future meta-agent suggestions and automation."
 agent: "aios-master"
 ---
 

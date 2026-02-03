@@ -1,5 +1,5 @@
 ---
-description: "tools:"
+description: "Skill to sync story."
 agent: "po"
 ---
 

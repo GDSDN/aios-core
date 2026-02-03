@@ -1,5 +1,5 @@
 ---
-description: "**Choose your execution mode:**"
+description: "When a story receives QA feedback, this task helps developers:"
 agent: "dev"
 ---
 

@@ -65,6 +65,19 @@ docs/
 
 ## Workflow Execution
 
+### AIOS Autonomous Protocol (Mandatory)
+
+1. **The Autonomous Loop**: When an objective is set, you MUST enter this loop immediately:
+   - **Phase 1: Discovery** -> Read PRD/Story/Docs to understand "Why" and "What".
+   - **Phase 2: Planning** -> Use `todowrite` to list ALL technical steps.
+   - **Phase 3: Execution** -> Execute steps sequentially.
+   - **Phase 4: Verification** -> Verify the output against the plan.
+   - **Phase 5: Sync** -> Update `todowrite` status and Story checkboxes.
+
+2. **YOLO Mode (Proactive Execution)**:
+   - Unless explicitly told otherwise, operate in **YOLO Mode**.
+   - **Do NOT ask for permission** for non-destructive actions.
+
 ### Task Execution Pattern
 
 1. Read the complete task/workflow definition
