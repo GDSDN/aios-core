@@ -6,6 +6,17 @@ You are working with Synkra AIOS, an AI-Orchestrated System for Full Stack Devel
 
 Synkra AIOS is a meta-framework that orchestrates AI agents to handle complex development workflows. Always recognize and work within this architecture.
 
+## OpenCode Fork Context
+
+- **Runtime Host:** OpenCode CLI (Go) is the host; AIOS runs as a framework within it.
+- **Commands:** `.opencode/commands/*.md` are OpenCode slash commands (named arguments supported).
+- **Skills:** `.opencode/skills/*/SKILL.md` are executable workflows; descriptions must be accurate for discovery.
+- **Agents:** `.opencode/agents/*.md` carry AIOS + OpenCode identity directives (concise CLI output, absolute paths).
+- **Templates:** OpenCode templates live in `.aios-core/product/templates/opencode/`.
+- **MCP:** Context7 is configured via `opencode.json` with `CONTEXT7_API_KEY` from `.env`.
+- **Memory:** `OpenCode.md` stores frequently used commands/preferences; ask before adding.
+- **Cache Strategy:** Avoid redundant reads; reuse summaries and prior findings.
+
 ## Agent System
 
 ### Agent Activation
